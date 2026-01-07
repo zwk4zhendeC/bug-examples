@@ -35,7 +35,13 @@ start_process() {
     local pid_file="$3"
 
     echo "[INFO] Starting: $cmd"
-    nohup $cmd > "$log_file" 2>&1 &
+    OS="$(uname -s)"
+    if [ "$OS" = "Linux" ]; then
+        echo "Linux detected, start with nohup"
+        nohup $cmd > "$log_file" 2>&1 &
+    else
+        $cmd > "$log_file" 2>&1 &
+    fi
     echo $! > "$pid_file"
     echo "[INFO] PID $! recorded in $pid_file"
 }
@@ -49,8 +55,10 @@ start_process "wpgen sample -c wpgen-tcp.toml --stat 2 -p" "$LOG_DIR/wpgen-tcp-1
 cd $ORIG_DIR/sender/nginx-send/
 start_process "wpgen sample -c wpgen-tcp.toml --stat 2 -p" "$LOG_DIR/wpgen-tcp-2.log" "$PID_DIR/wpgen-tcp-2.pid"
 
-echo "[INFO] All processes started. PIDs stored in $PID_DIR."
+# start_process "wpgen sample -c wpgen-tcp-1.toml --stat 2 -p" "$LOG_DIR/wpgen-tcp-1.log" "$PID_DIR/wpgen-tcp-1.pid"
+# start_process "wpgen sample -c wpgen-tcp-2.toml --stat 2 -p" "$LOG_DIR/wpgen-tcp-2.log" "$PID_DIR/wpgen-tcp-2.pid"
 
+echo "[INFO] All processes started. PIDs stored in $PID_DIR."
 # =========================
 # 阻塞主进程（可选）
 # =========================

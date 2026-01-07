@@ -2545,3 +2545,1694 @@ call context:
 2026-01-07 20:19:26.891164861 [INFO ] [mtrc   ] mem: rss=12.7 MiB
 2026-01-07 20:19:29.090305243 [INFO ] [mtrc   ] mem: rss=12.7 MiB
 2026-01-07 20:19:31.091155996 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:33.289310854 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:35.289393121 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:37.291445054 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:39.343015725 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:41.492034104 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:43.690938343 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:45.890653566 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:47.993154483 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:49.993505626 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:51.996247227 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:54.091815831 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:56.091720784 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:58.297661973 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:00.490166541 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:02.492277725 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:04.491926657 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:06.490969988 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:08.644788167 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:10.645309149 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:12.693243168 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:14.890182169 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:16.891912626 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:18.891320644 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:21.091773237 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:23.290387690 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:25.342681502 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:27.342679701 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:20:27.471154685 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:43790 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1974, last_ms_ago:1399, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:20:27.471189290 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:43806 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1974, last_ms_ago:1399, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:21:17.737952825 [INFO ] [ctrl   ] wpgen out sink resolved: kind=tcp, params={"addr": String("127.0.0.1"), "framing": String("line"), "port": Number(19002)}
+2026-01-07 20:21:17.738001297 [INFO ] [ctrl   ] wpgen.sample: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000), gen_speed=50, stat_sec=2, env: WF_GEN_BATCH=(unset), WF_GEN_UNIT_SIZE=(unset)
+2026-01-07 20:21:17.738010213 [INFO ] [ctrl   ] run_sample_direct: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000)
+2026-01-07 20:21:17.738015293 [INFO ] [ctrl   ] find conf files in: ./models/wpl
+2026-01-07 20:21:17.738071889 [INFO ] [ctrl   ] run_sample_direct: found 1 files
+2026-01-07 20:21:17.738085715 [INFO ] [ctrl   ] run_sample_direct: loaded 1 sample lines
+2026-01-07 20:21:17.738124027 [INFO ] [ctrl   ] monitor proc start: stat_sec=2, stat_print=true
+2026-01-07 20:21:17.738164524 [INFO ] [ctrl   ] speed: unlimited (no wait)
+2026-01-07 20:21:17.738170144 [INFO ] [ctrl   ] monitor loop started (stat_sec=2, stat_print=true)
+2026-01-07 20:21:17.738216381 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:21:17.738230989 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:21:17.738237281 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 0 (shared_total=Some(10000000000000000))
+2026-01-07 20:21:17.738304938 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:21:17.738316630 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:21:17.738322280 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 1 (shared_total=Some(10000000000000000))
+2026-01-07 20:21:17.738394276 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:21:17.738406769 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:21:17.738412610 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 2 (shared_total=Some(10000000000000000))
+2026-01-07 20:21:17.738484205 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:21:17.738496989 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:21:17.738502610 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 3 (shared_total=Some(10000000000000000))
+2026-01-07 20:21:17.738570638 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:21:17.738583041 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:21:17.738598480 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 4 (shared_total=Some(10000000000000000))
+2026-01-07 20:21:17.738665116 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:21:17.738697026 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:21:17.738708036 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:21:17.738735799 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:21:17.738791954 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:21:17.738812252 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:21:17.738886312 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:21:17.738910137 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:21:17.738953107 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:21:17.738963537 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:21:17.738968456 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 5 (shared_total=Some(10000000000000000))
+2026-01-07 20:21:17.739039470 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:21:17.739064236 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:21:17.739108510 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:21:17.739130040 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:21:17.739214359 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:21:17.739224889 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:21:17.739229698 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 6 (shared_total=Some(10000000000000000))
+2026-01-07 20:21:17.739242853 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:21:17.739247892 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:21:17.739352499 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:21:17.739364151 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:21:17.739368920 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 7 (shared_total=Some(10000000000000000))
+2026-01-07 20:21:17.739386052 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:21:17.739391001 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:21:17.739482533 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:21:17.739493163 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:21:17.739497922 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 8 (shared_total=Some(10000000000000000))
+2026-01-07 20:21:17.739573945 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:21:17.739582201 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:21:17.739617477 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:21:17.739625903 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:21:17.739630602 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 9 (shared_total=Some(10000000000000000))
+2026-01-07 20:21:17.739643597 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:21:17.739647865 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:21:19.757669344 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:21.761509240 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:23.764630805 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:25.812980867 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:27.814867789 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:29.813354433 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:31.958387915 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:34.157590305 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:36.158189675 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:38.358931390 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:40.461166337 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:42.560432766 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:44.759949406 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:46.958557977 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:49.112765410 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:51.168690624 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:53.359352233 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:55.358381970 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:21:56.940543502 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52656 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1128, last_ms_ago:799, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:21:56.940605599 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52628 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1128, last_ms_ago:800, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:21:56.940634563 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52600 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1128, last_ms_ago:800, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:21:56.940648329 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52590 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1128, last_ms_ago:800, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:21:56.940689477 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52614 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1128, last_ms_ago:800, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:21:56.940714814 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52596 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1128, last_ms_ago:800, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:21:56.940758236 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52612 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1128, last_ms_ago:800, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:21:56.940778314 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52642 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1128, last_ms_ago:799, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:21:56.940806958 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52640 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1128, last_ms_ago:800, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:21:56.940847464 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52580 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1128, last_ms_ago:800, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:22:22.606481168 [INFO ] [ctrl   ] wpgen out sink resolved: kind=tcp, params={"addr": String("127.0.0.1"), "framing": String("line"), "port": Number(19002)}
+2026-01-07 20:22:22.606514010 [INFO ] [ctrl   ] wpgen.sample: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000), gen_speed=50, stat_sec=2, env: WF_GEN_BATCH=(unset), WF_GEN_UNIT_SIZE=(unset)
+2026-01-07 20:22:22.606520632 [INFO ] [ctrl   ] run_sample_direct: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000)
+2026-01-07 20:22:22.606531362 [INFO ] [ctrl   ] find conf files in: ./models/wpl
+2026-01-07 20:22:22.606583310 [INFO ] [ctrl   ] run_sample_direct: found 1 files
+2026-01-07 20:22:22.606595293 [INFO ] [ctrl   ] run_sample_direct: loaded 1 sample lines
+2026-01-07 20:22:22.606631721 [INFO ] [ctrl   ] monitor proc start: stat_sec=2, stat_print=true
+2026-01-07 20:22:22.606663501 [INFO ] [ctrl   ] speed: unlimited (no wait)
+2026-01-07 20:22:22.606667659 [INFO ] [ctrl   ] monitor loop started (stat_sec=2, stat_print=true)
+2026-01-07 20:22:22.606710149 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:22:22.606724716 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:22:22.606730197 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 0 (shared_total=Some(10000000000000000))
+2026-01-07 20:22:22.606817711 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:22:22.606876151 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:22:22.606883936 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:22:22.606897491 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:22:22.606902511 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 1 (shared_total=Some(10000000000000000))
+2026-01-07 20:22:22.606921587 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:22:22.606927598 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:22:22.607034770 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:22:22.607045340 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:22:22.607050169 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 2 (shared_total=Some(10000000000000000))
+2026-01-07 20:22:22.607129738 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:22:22.607137934 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:22:22.607188900 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:22:22.607201163 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:22:22.607206262 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 3 (shared_total=Some(10000000000000000))
+2026-01-07 20:22:22.607236750 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:22:22.607244865 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:22:22.607312021 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:22:22.607322481 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:22:22.607327280 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 4 (shared_total=Some(10000000000000000))
+2026-01-07 20:22:22.607360663 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:22:22.607368818 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:22:22.607443679 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:22:22.607460190 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:22:22.607464669 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 5 (shared_total=Some(10000000000000000))
+2026-01-07 20:22:22.607491770 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:22:22.607500245 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:22:22.607559567 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:22:22.607570708 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:22:22.607575828 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 6 (shared_total=Some(10000000000000000))
+2026-01-07 20:22:22.607606475 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:22:22.607629769 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:22:22.607661359 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:22:22.607671598 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:22:22.607676247 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 7 (shared_total=Some(10000000000000000))
+2026-01-07 20:22:22.607701785 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:22:22.607711964 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:22:22.607761627 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:22:22.607772728 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:22:22.607777587 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 8 (shared_total=Some(10000000000000000))
+2026-01-07 20:22:22.607843962 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:22:22.607855784 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:22:22.607935514 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:22:22.607947607 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:22:22.607952546 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 9 (shared_total=Some(10000000000000000))
+2026-01-07 20:22:22.607970019 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:22:22.607975640 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:22:24.628404759 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 20:22:26.627788382 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 20:22:28.626415932 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 20:22:30.679472120 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 20:22:32.678532044 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 20:22:34.827128649 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 20:22:36.829675582 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 20:22:39.030279068 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 20:22:41.225674556 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:22:43.234264471 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:22:45.329495670 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:22:47.330737228 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:22:49.429856572 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:22:51.427730705 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:22:53.628818331 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:22:55.826256020 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:22:57.828848179 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:22:59.979814722 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:23:02.028193678 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:23:04.027717093 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:23:06.228828575 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:23:08.426747269 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:23:10.627687084 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:23:12.626569927 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:23:14.678071681 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:23:16.679858548 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:23:18.826675556 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:23:20.829049487 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:23:23.027104238 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:23:25.028735242 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 20:23:27.028393625 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 20:23:29.227457544 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 20:23:31.227728459 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 20:23:33.226730686 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:23:35.226978137 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:23:37.329042494 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:23:39.329819130 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:23:41.427504849 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:23:43.628217319 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:23:45.826808599 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:23:47.827945513 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:23:49.982827665 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:23:52.028588308 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:23:54.027517799 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:23:56.231704877 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:23:58.427008592 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:00.626974709 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:02.682397340 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:04.678776702 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:06.827185123 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:09.035584537 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:11.025720873 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:13.028510346 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:15.227363579 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:17.227472760 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:19.226254372 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:21.226869745 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:23.330528502 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:25.426938219 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:27.428710810 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:29.627648211 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:31.632564336 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:33.826307294 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:35.832104146 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:37.980523779 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:40.028432243 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:42.032583558 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:44.027743476 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:46.228138189 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:48.230894020 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:50.227178003 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:52.428912957 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:54.627711788 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:56.678236134 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:24:58.828949963 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:01.026865642 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:03.225982410 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:05.329019658 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:07.330238035 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:09.428395972 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:11.626776656 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:13.627403170 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:15.827039727 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:17.980228964 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:19.980958973 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:22.028947507 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:24.228911119 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:26.227464021 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:28.432761148 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:30.626544141 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:32.677655761 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:34.680823035 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:36.827791879 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:38.827224236 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:41.027385850 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:43.226457534 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:45.329481927 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:47.426524635 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:49.427415526 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:51.628686027 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:53.627513776 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:55.829088419 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:57.980050917 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:25:59.980412482 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:02.027231857 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:04.027453940 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:06.227372658 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:08.430165543 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:10.626733777 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:12.627482210 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:14.627406291 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:16.677358470 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:18.678334301 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:20.827683734 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:22.828492992 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:24.830099088 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:27.027861900 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:29.226075129 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:31.329060849 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:33.329722690 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:35.426588385 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:37.428316872 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:39.627425676 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:41.825541982 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:43.826140624 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:45.983685976 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:48.029588876 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:50.030624139 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:52.227118694 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:54.230187533 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:56.426225860 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:26:58.626586990 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:00.679821284 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:02.826576114 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:04.828024625 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:07.027229639 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:09.027062109 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:11.227256845 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:13.330827526 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:15.426942349 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:17.628446139 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:19.627299096 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:21.827520964 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:23.826369923 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:25.826196752 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:27.980603640 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:29.980261341 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:31.980962004 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:34.036228031 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:36.228265491 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:38.227384198 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:40.430662186 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:42.426630596 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:44.627264819 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:46.626597629 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:48.677559227 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:50.677655563 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:52.679176029 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:54.677794484 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:56.826292275 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:27:58.826498457 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:01.025761972 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:03.025720679 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:05.225237080 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:07.328786491 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:09.329038840 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:11.329401117 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:13.430600186 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:15.625575943 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:17.626839486 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:19.835033203 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:21.979699864 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:24.025745373 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:26.028633413 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:28.028024171 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:30.027512163 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:32.227374605 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:34.425565372 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:36.625771450 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:38.625302192 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:40.677190884 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:42.677103655 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:44.827653626 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:47.026589855 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:49.225326468 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:51.225247254 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:53.329096770 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:55.426557816 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:57.428535432 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:28:59.628188209 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:01.825015860 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:03.825108319 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:05.830680739 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:07.979440843 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:10.028499190 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:12.234440229 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:14.425675509 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:16.626786179 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:18.678221578 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:20.827299690 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:23.025264161 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:25.029106906 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:27.025669844 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:29.226647865 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:31.225527643 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:33.328639811 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:35.329112545 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:37.329576444 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:39.428012684 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:41.426291611 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:43.628434573 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:45.826926196 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:47.979870902 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:49.979624894 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:52.032709707 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:54.226293035 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:56.424650986 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:29:58.433217849 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:00.625771220 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:02.625649846 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:04.680052699 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:06.677376378 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:08.827980762 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:11.024995095 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:13.027226348 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:15.225278364 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:17.328549150 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:19.425903355 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:21.426936374 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:23.625918890 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:25.630943158 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:27.825554801 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:29.979575772 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:31.984219254 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:34.026529905 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:36.225760519 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:38.227754956 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:40.425801973 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:42.626290463 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:44.633992950 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:46.678269761 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:48.825438490 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:50.827849622 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:52.827797328 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:55.026114303 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:57.226255309 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:30:59.328761967 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:01.330007897 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:03.427297420 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:05.626381867 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:07.826571395 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:09.825626182 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:11.980483677 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:14.025614686 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:16.026254434 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:18.030128218 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:20.225911705 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:22.425867232 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:24.628160036 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:26.625129349 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:28.676624241 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:30.678856616 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:32.826603844 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:35.025869603 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:37.027044529 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:39.225092356 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:41.328077475 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:43.328926639 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:45.428801305 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:47.625250025 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:49.827115686 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:51.979923255 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:54.027186615 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:56.226545048 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:31:58.425469325 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:00.425491482 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:02.624762561 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:04.626500095 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:06.677432058 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:08.825938023 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:10.830403149 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:13.025870071 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:15.027510191 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:17.230319518 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:19.329196197 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:21.425754363 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:23.435654465 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:25.626204736 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:27.825479592 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:29.981854573 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:32.026673504 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:34.227414519 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:36.230530867 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:38.426664774 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:40.624905414 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:42.625773152 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:44.677233779 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:46.825163901 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:48.827420150 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:51.024257360 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:53.025876141 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:55.025687140 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:57.226783873 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:32:59.225109628 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:01.327716014 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:03.328968496 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:05.329664370 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:07.427352073 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:09.428794041 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:11.628121766 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:13.825091475 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:15.985918472 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:17.978773946 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:20.027197969 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:22.025482938 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:24.227802722 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:26.425492887 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:28.624409098 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:30.624907902 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:32.626522164 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:34.677426565 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:36.827978139 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:39.024934012 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:41.027063002 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:43.226027574 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:45.328610166 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:47.329747601 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:49.429560512 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:51.626047493 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:53.825292393 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:55.827881850 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:33:57.979191852 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:00.026624631 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:02.030894710 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:04.225671473 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:06.227962579 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:08.426544491 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:10.625224006 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:12.676713107 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:14.677148291 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:16.677293168 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:18.827587159 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:21.025085502 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:23.227049678 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:25.327947831 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:27.328445823 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:29.427168062 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:31.626390449 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:33.826241830 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:35.827208183 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:37.979010560 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:40.026006889 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:42.032276780 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:44.226029136 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:46.426269979 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:48.626177005 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:50.626945606 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:52.676753424 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:54.835121915 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:57.024771120 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:34:59.027114214 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:01.225169555 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:03.226825616 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:05.225159385 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:07.327786040 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:09.328641275 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:11.329173281 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:13.328776078 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:15.426970323 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:17.629147320 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:19.825346890 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:21.989126943 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:23.979718206 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:26.027537952 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:28.027800762 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:30.226962815 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:32.225775175 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:34.227743453 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:36.424616660 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:38.425415278 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:40.625344405 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:42.624646937 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:44.626683524 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:46.677744559 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:48.826889607 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:51.024845922 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:53.026564721 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:55.225272219 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:57.225881641 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:35:59.328805996 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:36:01.430592159 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:36:03.625963360 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:36:05.824980663 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:36:07.980353778 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:36:10.027193391 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:36:12.227040574 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:36:14.232186671 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:36:16.426762016 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:36:18.624949826 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:36:20.678689682 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:36:22.825329458 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:36:24.827000606 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:27.026313584 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:29.225093879 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:31.328891457 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:33.429159674 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:35.626078347 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:37.825194485 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:39.979437795 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:42.027718230 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:44.226051964 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:46.227047602 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:48.425209734 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:50.625160753 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:52.676640837 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:54.677196747 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:56.826615972 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:36:58.827382690 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:01.025774425 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:03.026770684 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:05.225128364 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:07.227975716 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:09.329366226 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:11.327902417 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:13.430596488 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:15.627413881 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:17.826201761 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:19.832910989 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:21.978377055 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:23.978927145 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:25.979243656 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:27.979699348 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:30.028176010 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:32.225659857 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:34.425012489 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:36.625877738 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:38.624394492 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:40.677645828 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:42.677176840 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:44.825257606 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:46.826432822 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:49.024930947 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:51.227005000 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:53.331559011 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:55.427072111 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:57.626042204 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:37:59.634459176 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:01.826093536 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:03.978911595 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:06.029030667 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:08.226534632 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:10.425010154 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:12.427130158 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:14.625132209 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:16.676765821 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:18.826270215 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:21.024970701 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:23.225905580 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:25.225238931 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:27.327766839 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:29.328581317 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:31.425446772 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:33.428303722 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:35.625384209 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:37.626886912 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:39.626404198 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:41.826303049 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:43.824738149 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:45.983177263 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:47.978780006 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:50.026006316 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:52.227404878 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:54.426081289 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:56.624802894 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:38:58.629046383 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:00.676758758 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:02.827513324 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:04.825641488 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:07.026326567 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:09.024840666 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:11.025132380 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:13.225460187 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:15.328350247 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:17.425245188 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:19.426473694 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:21.627214799 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:23.825196903 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:25.979653384 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:27.979311425 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:30.028227415 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:32.234556172 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:34.226163246 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:36.424929225 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:38.630976674 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:40.626474167 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:42.676895709 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:44.829002019 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:47.025077626 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:49.225285156 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:51.331277685 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:53.329379048 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:55.426911117 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:57.425976223 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:39:59.626496893 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:01.625793975 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:03.626099466 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:05.824911440 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:07.978747294 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:09.979354691 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:12.027230834 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:14.225238867 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:16.226128506 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:18.230220009 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:20.225935533 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:22.426307434 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:24.425987607 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:26.424953046 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:28.625161529 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:30.678901024 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:32.677360220 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:34.825129440 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:36.827179472 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:39.025636289 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:41.026146995 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:43.225023592 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:45.227313065 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:47.224894890 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:49.224923169 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:51.329089531 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:53.426757908 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:55.625245041 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:57.626708039 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:40:59.826754468 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:01.825024598 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:03.984475526 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:05.979437232 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:08.026539930 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:10.229662095 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:12.225888761 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:14.426321246 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:16.624231384 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:18.624650517 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:20.626743611 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:22.624200743 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:24.677767132 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:26.826144997 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:29.026398165 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:31.225670546 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:33.225853776 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:35.329159810 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:37.426459943 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:39.427409375 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:41.625367815 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:43.631427612 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:45.824763344 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:47.979548975 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:49.985017720 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:52.027475489 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:54.225625558 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:56.227296848 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:41:58.424672892 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:00.426084585 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:02.625029952 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:04.676948882 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:06.825513759 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:09.025041872 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:11.226871024 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:13.225022893 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:15.327487823 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:17.426591200 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:19.426316228 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:21.627783589 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:23.829229891 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:25.978922570 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:28.025463521 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:30.029264587 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:32.225212775 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:34.225704195 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:36.425906115 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:38.624452051 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:40.624761137 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:42.680056740 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:44.676929632 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:46.676828938 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:48.827652705 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:51.024481870 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:53.027028967 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:55.225356331 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:57.226291275 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:42:59.329690424 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:01.427017548 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:03.428602465 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:05.626742497 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:07.626002380 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:09.833678072 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:11.825529907 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:13.979386249 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:15.980589819 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:17.979783227 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:20.027707391 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:22.226824140 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:24.424475422 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:26.425008570 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:28.627937221 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:30.676387154 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:32.676941332 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:34.825687440 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:37.024798948 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:39.025076617 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:41.225608989 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:43.328550787 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:45.426223491 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:47.627155515 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:49.626519985 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:51.825963979 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:53.825182805 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:55.979707915 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:43:57.979618081 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:00.026920525 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:02.226675955 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:04.426578933 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:06.424798038 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:08.433732243 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:10.623728872 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:12.624080429 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:14.678399825 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:16.676852549 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:18.677098817 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:20.826030484 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:22.826737650 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:25.026517998 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:27.025008362 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:29.026814466 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:31.224906026 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:33.225240071 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:35.331059152 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:37.426674315 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:39.625983125 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:41.833674648 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:43.978983830 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:45.979307053 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:47.980348288 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:50.026086899 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:52.027558684 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:54.226051990 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:56.424981907 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:44:58.626951194 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:00.676940041 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:02.677201028 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:04.825934181 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:06.826050195 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:09.024995872 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:11.226359057 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:13.329350699 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:15.426759166 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:17.625406702 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:19.625910806 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:21.832181125 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:23.978939913 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:25.979156616 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:28.029688215 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:30.226212636 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:32.424915266 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:34.627425650 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:36.623737186 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:38.625080930 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:40.678447784 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:42.825964098 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:45.025210671 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:47.234598134 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:49.329248031 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:51.427943049 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:53.627451755 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:55.626450987 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:57.625810188 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:45:59.826334725 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:01.825429598 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:03.825105363 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:05.978616896 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:07.980427338 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:10.028963994 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:12.225322383 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:14.427530157 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:16.625717307 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:18.625967584 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:20.678036355 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:22.826079330 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:25.026847526 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:27.226398953 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:29.327534433 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:31.329652834 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:33.337976750 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:35.425342092 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:37.426550040 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:39.627016929 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:41.626457943 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:43.824496453 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:45.824675756 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:47.826278407 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:49.978798765 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:52.026758466 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:54.031171163 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:56.226817262 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:46:58.227669792 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:00.426081033 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:02.426498454 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:04.424931201 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:06.628289671 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:08.676546170 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:10.676579338 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:12.679620735 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:14.825068026 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:16.833662552 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:19.024758010 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:21.026350922 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:23.225743069 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:25.327604985 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:27.329976643 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:29.427158624 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:31.626244085 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:33.824724146 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:35.824987206 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:37.978720867 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:40.028123042 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:42.225197148 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:44.225491777 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:46.434053426 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:48.626095965 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:50.624435707 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:52.629953253 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:54.676983124 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:56.677020640 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:47:58.829264178 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:01.024748443 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:03.026892101 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:05.026783082 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:07.227027943 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:09.223701049 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:11.224909118 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:13.328617137 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:15.329146629 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:17.328238085 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:19.426411732 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:21.426422186 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:23.625462091 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:25.631271336 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:27.824664978 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:29.824872002 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:31.828402309 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:33.978973541 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:35.979043819 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:37.979136038 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:40.025812824 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:42.027531424 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:44.225471509 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:46.227252986 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:48.232072759 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:50.426626814 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:52.625398274 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:54.625882530 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:56.625806332 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:48:58.678034704 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:00.676731868 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:02.826885043 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:05.029791201 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:07.225643829 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:09.224468623 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:11.226153940 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:13.226679023 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:15.225147667 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:17.329276048 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:19.329006657 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:21.328331191 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:23.425477755 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:25.428306943 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:27.626410505 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:29.824396035 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:31.980592401 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:33.978975926 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:36.026107788 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:38.029074926 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:40.026459361 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:42.226441468 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:44.225675993 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:46.426007247 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:48.625040459 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:50.676470839 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:52.676345969 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:54.826444071 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:56.826062569 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:49:59.026942536 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:01.224983410 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:03.327365866 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:05.426640254 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:07.625881297 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:09.826189258 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:11.979467693 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:13.979008694 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:15.979049436 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:18.028743870 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:20.225998887 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:22.426607593 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:24.430692384 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:26.624698697 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:28.626537172 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:30.625741820 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:32.676880562 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:34.825638533 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:37.027615213 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:39.224583489 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:41.226710157 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:43.225254102 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:45.329069394 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:47.328269444 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:49.425304348 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:51.426662118 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:53.428210597 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:55.625319849 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:57.630209986 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:50:59.625692241 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:01.626300340 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:03.826349263 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:05.824936000 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:07.826486192 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:09.980036890 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:11.979166968 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:14.025238256 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:16.226259589 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:18.226047445 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:20.225495051 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:22.425239270 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:24.627760745 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:26.676492398 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:28.676893489 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:30.684844143 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:32.677226466 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:34.824944258 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:36.834645426 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:39.024337333 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:41.224915532 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:43.336951760 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:45.327946722 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:47.329290005 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:49.427071013 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:51.426288055 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:53.627197858 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:55.824960308 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:51:57.979320408 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:00.026438134 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:02.027122867 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:04.225981832 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:06.424885580 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:08.425139843 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:10.624776000 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:12.625246881 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:14.676473177 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:16.678509884 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:18.825969131 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:21.024825489 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:23.231092251 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:25.224817902 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:27.225037731 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:29.336576785 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:31.425983958 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:33.626066444 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:35.829568433 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:37.978731205 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:39.979059859 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:41.979309565 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:43.979261449 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:46.027359450 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:48.225376329 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:50.227859056 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:52.226110672 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:54.426508611 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:56.625154664 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:52:58.625508496 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:00.624623065 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:02.677736662 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:04.825552330 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:06.825473897 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:09.027890094 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:11.226815292 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:13.329470130 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:15.430384234 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:17.425597413 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:19.627217592 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:21.826592657 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:23.979087678 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:26.025660009 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:28.027239095 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:30.225818303 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:32.425239515 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:34.625128888 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:36.624200376 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:38.625124199 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:40.676544400 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:42.679064717 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:44.827597324 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:47.024816754 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:49.028182441 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:51.025166171 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:53.225137348 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:55.329725894 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:57.425965602 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:53:59.626105556 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:01.830382454 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:03.978727306 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:05.981674537 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:08.025880454 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:10.227704728 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:12.225984887 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:14.425960372 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:16.424573087 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:18.625572719 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:20.624238063 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:22.676994508 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:24.825023907 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:27.026016686 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:29.025439125 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:31.225924027 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:33.224593810 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:35.335913660 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:37.333452665 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:39.425101275 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:41.627762423 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:43.826322414 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:45.978957760 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:47.988046244 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:50.026082033 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:52.226485683 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:54.226436326 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:56.225802939 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:54:58.226245518 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:00.424407711 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:02.426706401 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:04.626119187 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:06.676412458 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:08.827506132 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:10.826555630 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:13.025902902 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:15.026395574 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:17.024890418 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:19.026269679 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:21.226474084 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:23.226725672 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:25.225056637 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:27.331677086 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:29.425407854 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:31.426061148 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:33.625598369 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:35.825050700 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:37.824324098 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:39.825024120 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:41.978619772 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:43.979191203 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:46.027088587 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:48.027812785 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:50.226928232 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:52.425104782 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:54.428286253 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:56.624373011 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:55:58.626217877 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:00.628775415 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:02.676462653 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:04.676855737 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:06.827744276 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:09.025082648 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:11.224707213 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:13.227446963 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:15.328924687 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:17.328198496 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:19.425934790 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:21.627257389 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:23.824344840 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:25.825648048 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:27.825779781 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:29.978694622 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:31.979028916 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:34.030597867 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:36.026560276 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:38.227228183 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:40.227742486 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:42.426559291 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:44.624697048 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:46.633705403 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:48.677446526 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:50.676961318 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:52.677501120 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:54.825184418 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:56.827131225 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:56:59.025630232 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:01.224227403 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:03.224401085 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:05.225915851 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:07.225329904 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:09.328013275 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:11.328341438 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:13.333057777 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:15.426966109 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:17.625515380 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:19.827587910 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:21.825339145 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:23.982467774 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:26.026392302 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:28.027168598 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:30.226311306 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:32.427307548 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:34.624985055 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:36.677166819 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:38.827442470 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:41.025083608 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:43.226078044 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:45.328863166 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:47.328298520 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:49.425004633 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:51.425765030 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:53.428359768 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:55.625341965 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:57.627527934 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:57:59.831514220 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:01.979306810 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:04.026026146 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:06.225845841 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:08.425468318 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:10.424693767 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:12.434185843 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:14.624285491 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:16.624387098 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:18.630849704 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:20.676641675 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:22.676677608 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:24.676870367 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:26.676802746 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:28.677184732 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:30.824964226 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:32.826674080 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:34.827293802 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:37.024997627 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:39.228096032 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:41.327721287 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:43.328018703 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:45.426535063 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:47.426881882 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:49.425992504 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:51.630071123 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:53.626448424 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:55.825959660 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:58:57.979589503 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:00.027296217 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:02.225576025 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:04.227484893 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:06.424063029 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:08.425936170 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:10.425179843 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:12.625845270 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:14.624937901 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:16.676282430 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:18.826779699 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:21.025628326 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:23.025196872 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:25.229490865 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:27.224780849 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:29.328412322 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:31.433480007 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:33.627879947 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:35.824358857 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:37.827777276 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:39.978798531 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:41.978919475 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:43.978984233 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:45.979206808 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:48.027050679 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:50.026827466 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:52.226937738 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:54.424855617 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:56.426318857 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 20:59:58.625594951 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:00.677150348 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:02.824812653 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:04.827366004 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:06.826184237 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:09.024940364 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:11.227123176 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:13.328556976 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:15.327470400 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:17.330886524 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:19.329095982 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:21.428021333 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:23.631422576 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:25.627912349 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:27.824580646 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:29.827412801 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:31.978685269 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:34.026953398 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:36.025725675 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:38.228669789 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:40.425261853 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:42.624988934 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:44.677846780 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:46.826936560 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:49.026890639 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:51.026234792 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:53.225868708 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:55.225445910 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:57.226674859 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:00:59.327879478 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:01.330103328 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:03.429217261 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:05.626552603 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:07.824702355 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:09.826491728 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:11.978498027 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:13.979081741 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:16.027926886 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:18.026191678 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:20.226942676 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:22.226942551 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:24.229501723 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:26.426508727 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:28.424909094 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:30.627989754 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:32.624480207 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:34.624934507 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:36.684777815 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:38.826305710 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:41.024730130 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:43.229774877 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:45.328204553 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:47.426128839 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:49.627528178 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:51.625685507 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:53.627555721 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:55.824359082 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:57.826496090 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:01:59.824782231 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:01.825473049 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:03.979757733 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:05.979218354 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:07.979439286 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:10.028807978 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:12.026388283 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:14.227665031 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:16.425494513 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:18.427243090 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:20.624355183 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:22.630459956 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:24.677664114 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:26.677021651 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:28.825865649 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:31.026941218 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:33.224599587 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:35.226565181 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:37.225084513 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:39.328014978 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:41.427393109 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:43.627194392 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:45.625716188 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:47.826429396 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:49.979739166 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:51.979229315 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:54.027350691 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:56.027592551 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:02:58.227752608 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:00.425247510 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:02.429415939 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:04.425439164 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:06.626269933 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:08.626969916 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:10.624860714 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:12.626183430 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:14.676635571 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:16.676753841 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:18.827260517 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:21.025529948 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:23.224365894 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:25.224897310 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:27.226410133 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:29.330867600 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:31.328540628 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:33.425649578 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:35.429629593 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:37.625190297 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:39.625508753 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:41.629494569 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:43.825070360 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:45.978892563 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:47.982797204 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:50.025814025 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:52.025935910 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:54.225745457 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:56.425940710 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:03:58.425258543 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:00.625992770 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:02.676885669 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:04.827333835 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:07.024208520 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:09.225527386 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:11.225139282 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:13.327700292 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:15.329003691 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:17.329617552 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:19.427255407 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:21.429933043 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:23.426188133 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:25.626304267 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:27.828933738 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:29.827029932 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:31.978092285 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:33.978758604 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:35.978983324 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:37.979405233 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:40.026311992 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:42.227590312 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:44.424461862 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:46.426717883 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:48.430304829 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:50.425094733 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:52.625211376 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:54.679972723 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:56.826180050 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:04:59.026154286 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:01.026479875 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:03.226912435 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:05.225020472 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:07.334183632 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:09.328145419 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:11.329647492 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:13.426486094 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:15.425693690 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:17.625872581 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:19.824848409 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:21.824743439 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:23.825102983 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:25.978889039 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:27.982440168 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:30.025639391 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:32.026147054 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:34.228929936 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:36.225448381 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:38.225779112 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:40.434060630 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:42.624394088 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:44.624673371 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:46.626476290 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:48.677021325 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:50.825880071 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:53.024945087 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:55.025657115 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:57.225128065 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:05:59.328568789 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:06:01.426473939 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:06:03.625680211 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:06:05.626004337 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:06:07.825443857 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:06:09.824787538 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 21:06:11.825036414 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:13.826986230 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:15.979155724 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:18.025996008 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:20.027020471 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:22.226500387 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:24.425146866 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:26.629620489 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:28.676728838 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:30.825883290 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:33.026491380 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:35.225157144 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:37.327681775 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:39.426411125 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:41.426064240 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:43.625210758 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:45.625571754 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:47.625742893 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:49.824880826 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:51.824908005 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:53.826463419 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:55.979187767 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:06:58.025787317 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:00.234301612 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:02.226629213 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:04.424727151 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:06.626427254 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:08.677226175 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:10.826799824 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:12.831668571 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:15.025885324 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:17.025495148 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:19.226814455 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:21.327959591 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:23.426037825 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:25.627176293 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:27.625757310 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:29.626468725 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:31.824371785 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:33.824715469 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:35.824753224 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:37.825063334 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:39.829562636 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:41.979205548 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:43.981347483 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:46.026304543 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:48.226793198 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:50.427225847 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:52.627379931 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:54.625016420 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:56.676889774 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:07:58.827486580 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:01.024664787 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:03.025237101 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:05.225800226 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:07.328064407 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:09.426056721 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:11.627013428 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:13.824523008 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:15.824641077 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:17.825407857 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:19.978902425 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:21.979635682 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:24.025534184 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:26.026736012 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:28.226601384 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:30.226074701 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:32.426316060 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:34.624752075 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:36.624532869 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:38.683930689 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:40.825948273 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:43.025328854 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:45.230134491 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:47.225995972 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:49.329195663 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:51.427881863 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:53.625714701 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:55.625964777 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:57.827544987 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:08:59.980410261 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:02.025350450 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:04.027013294 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:06.227722835 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:08.426489751 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:10.427567054 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:12.628103319 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:14.628518926 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:16.677764215 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:18.832489920 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:20.828406144 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:23.034300510 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:25.234865899 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:27.226887365 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:29.328801838 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:31.331914842 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:33.331643288 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:35.427008867 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:37.428346019 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:39.626675001 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:41.627892178 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:43.627824978 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:45.826503166 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:47.826705093 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:49.980331557 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:52.028403679 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:54.026990475 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:56.227119534 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:09:58.428961313 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:00.626753024 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:02.678150811 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:04.683337436 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:06.678674800 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:08.678708669 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:10.827943201 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:12.827245835 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:14.827371578 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:16.827255306 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:19.027191221 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:21.226748802 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:23.330355610 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:25.428311415 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:27.627217852 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:29.627859025 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:31.828770516 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:33.980588821 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:36.028328007 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:38.031152679 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:40.227051499 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:42.227446048 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:44.234344914 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:46.426324509 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:48.627187668 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:50.681008376 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:52.678899966 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:54.828059749 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:57.028720137 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:10:59.226707947 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:01.228648675 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:03.330696088 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:05.331155099 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:07.427017786 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:09.428375127 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:11.430033454 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:13.428048216 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:15.627966918 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:17.829557607 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:19.980784628 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:22.028736884 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:24.036328384 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:26.228325865 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:28.228000208 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:30.436935044 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:32.428086773 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:34.628006939 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:36.679541656 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:38.829103244 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:41.027049526 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:43.227944306 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:45.330618299 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:47.427486438 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:49.628111220 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:51.627773762 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:53.828692596 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:55.826689974 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:57.827722634 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:11:59.980402578 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:12:01.980733617 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:12:04.030742783 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:12:06.227012169 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:12:08.428400445 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:12:10.628724370 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:12:12.628363366 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:12:14.678556278 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:12:16.688698336 [INFO ] [mtrc   ] mem: rss=13.3 MiB
+2026-01-07 21:12:18.408046071 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52044 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:846, last_ms_ago:599, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 21:12:18.408102317 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52014 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:846, last_ms_ago:599, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 21:12:18.408117416 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52024 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:846, last_ms_ago:599, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 21:12:18.408150538 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52034 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:846, last_ms_ago:599, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 21:12:18.408179773 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:52046 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:846, last_ms_ago:599, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}

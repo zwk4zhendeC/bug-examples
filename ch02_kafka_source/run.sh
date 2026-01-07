@@ -35,19 +35,23 @@ start_process() {
     local pid_file="$3"
 
     echo "[INFO] Starting: $cmd"
-    nohup $cmd > "$log_file" 2>&1 &
+    OS="$(uname -s)"
+    if [ "$OS" = "Linux" ]; then
+        nohup $cmd > "$log_file" 2>&1 &
+    else
+        $cmd > "$log_file" 2>&1 &
+    fi
     echo $! > "$pid_file"
     echo "[INFO] PID $! recorded in $pid_file"
 }
-
 # 启动各个进程
 start_process "wparse daemon --stat 2 -p" "$LOG_DIR/wparse-info.log" "$PID_DIR/wparse.pid"
 sleep 1
+
+start_process "wpgen sample -c wpgen-kafka.toml --stat 2 -p" "$LOG_DIR/wpgen-kafka-1.log" "$PID_DIR/wpgen-kafka-1.pid"
+
 cd $ORIG_DIR/sender/fbt-send/
 start_process "wpgen sample -c wpgen-tcp.toml --stat 2 -p" "$LOG_DIR/wpgen-tcp-1.log" "$PID_DIR/wpgen-tcp-1.pid"
-
-cd $ORIG_DIR/sender/nginx-send/
-start_process "wpgen sample -c wpgen-tcp.toml --stat 2 -p" "$LOG_DIR/wpgen-tcp-2.log" "$PID_DIR/wpgen-tcp-2.pid"
 
 echo "[INFO] All processes started. PIDs stored in $PID_DIR."
 

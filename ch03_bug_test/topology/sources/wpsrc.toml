@@ -1,10 +1,10 @@
 # kafka输入源
 [[sources]]
 enable = true
-key = "k1"
+key = "kafka"
 connect = "kafka_src"
 tags = ["src:kafka","topic:wp.input.event"]
-params= { topic = "wp.input.event" ,brokers = "localhost:9092" ,group_id="k1"}
+params= { topic = "wp.input.event" ,brokers = "localhost:9092" }
 
 # TCP输入源
 [[sources]]
