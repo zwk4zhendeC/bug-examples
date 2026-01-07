@@ -48,8 +48,8 @@ start_process() {
 start_process "wparse daemon --stat 2 -p" "$LOG_DIR/wparse-info.log" "$PID_DIR/wparse.pid"
 sleep 1
 
-# cd $ORIG_DIR/sender/nginx-send/
-start_process "wpgen sample -c wpgen-kafka.toml --stat 2 -p" "$LOG_DIR/wpgen-kafka.log" "$PID_DIR/wpgen-kafka.pid"
+cd $ORIG_DIR/sender/nginx-send/
+start_process "wpgen sample --stat 2 -p" "$LOG_DIR/wpgen-kafka.log" "$PID_DIR/wpgen-kafka.pid"
 
 cd $ORIG_DIR/sender/fbt-send/
 start_process "wpgen sample --stat 2 -p" "$LOG_DIR/wpgen-tcp-1.log" "$PID_DIR/wpgen-tcp-1.pid"
