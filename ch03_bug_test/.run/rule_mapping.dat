@@ -1,6 +1,6 @@
 --- name_mdl_res------
-nginx 
 sysmon 
+nginx 
 
 --- rule_mdl_res(rule_name, model_name) --- 
 
@@ -10,7 +10,7 @@ sysmon
 /nginx/flb_nginx : (file_01,/nginx/*) 
 
 --- sink_rule_relation( sink_name, rule_name) --- 
-file_01 : /nginx/nginx,/nginx/flb_nginx 
+file_01 : /nginx/flb_nginx,/nginx/nginx 
  
 
 
