@@ -1,0 +1,2547 @@
+2026-01-07 19:12:01.931157188 [INFO ] [ctrl   ] wpgen out sink resolved: kind=tcp, params={"addr": String("127.0.0.1"), "framing": String("line"), "port": Number(19002)}
+2026-01-07 19:12:01.931189408 [INFO ] [ctrl   ] wpgen.sample: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000), gen_speed=50, stat_sec=2, env: WF_GEN_BATCH=(unset), WF_GEN_UNIT_SIZE=(unset)
+2026-01-07 19:12:01.931194518 [INFO ] [ctrl   ] run_sample_direct: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000)
+2026-01-07 19:12:01.931197303 [INFO ] [ctrl   ] find conf files in: ./models/wpl
+2026-01-07 19:12:01.931249732 [INFO ] [ctrl   ] run_sample_direct: found 1 files
+2026-01-07 19:12:01.931262806 [INFO ] [ctrl   ] run_sample_direct: loaded 1 sample lines
+2026-01-07 19:12:01.931295808 [INFO ] [ctrl   ] monitor proc start: stat_sec=2, stat_print=true
+2026-01-07 19:12:01.931328800 [INFO ] [ctrl   ] speed: unlimited (no wait)
+2026-01-07 19:12:01.931332988 [INFO ] [ctrl   ] monitor loop started (stat_sec=2, stat_print=true)
+2026-01-07 19:12:01.931423809 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:12:01.931434119 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:12:01.931438597 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 0 (shared_total=Some(10000000000000000))
+2026-01-07 19:12:01.931488531 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:12:01.931515812 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:12:01.931684500 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:12:01.931697154 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:12:01.931701291 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 1 (shared_total=Some(10000000000000000))
+2026-01-07 19:12:01.931778557 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:12:01.931788475 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:12:01.931792613 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 2 (shared_total=Some(10000000000000000))
+2026-01-07 19:12:01.931883053 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:12:01.931894445 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:12:01.931904183 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:12:01.931933709 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:12:01.931939730 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:12:01.931948627 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:12:01.931969496 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 3 (shared_total=Some(10000000000000000))
+2026-01-07 19:12:01.931994924 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:12:01.932001346 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:12:01.932064815 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:12:01.932076207 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:12:01.932080875 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 4 (shared_total=Some(10000000000000000))
+2026-01-07 19:12:01.932103738 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:12:01.932109549 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:12:01.932223354 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:12:01.932234334 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:12:01.932239133 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 5 (shared_total=Some(10000000000000000))
+2026-01-07 19:12:01.932298565 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:12:01.932305378 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:12:01.932338140 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:12:01.932345674 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:12:01.932349852 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 6 (shared_total=Some(10000000000000000))
+2026-01-07 19:12:01.932380569 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:12:01.932400607 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:12:01.932423500 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:12:01.932432587 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:12:01.932437286 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 7 (shared_total=Some(10000000000000000))
+2026-01-07 19:12:01.932457294 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:12:01.932464758 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:12:01.932502389 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:12:01.932514982 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:12:01.932519821 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 8 (shared_total=Some(10000000000000000))
+2026-01-07 19:12:01.932583090 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:12:01.932591176 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:12:01.932650096 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:12:01.932663271 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:12:01.932668160 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 9 (shared_total=Some(10000000000000000))
+2026-01-07 19:12:01.932706763 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:12:01.932714217 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:12:03.951986348 [INFO ] [mtrc   ] mem: rss=12.2 MiB
+2026-01-07 19:12:06.002724262 [INFO ] [mtrc   ] mem: rss=12.2 MiB
+2026-01-07 19:12:08.152189300 [INFO ] [mtrc   ] mem: rss=12.2 MiB
+2026-01-07 19:12:10.354606318 [INFO ] [mtrc   ] mem: rss=12.2 MiB
+2026-01-07 19:12:12.552380340 [INFO ] [mtrc   ] mem: rss=12.2 MiB
+2026-01-07 19:12:14.654932281 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:12:16.760894708 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:12:18.751259340 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:12:20.953089595 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:12:22.953022569 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:12:25.152579777 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:12:27.305189083 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:29.352098503 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:31.351923253 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:33.553364875 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:35.750591007 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:37.950751548 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:40.002473754 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:42.151627548 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:44.351912574 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:46.549974818 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:48.551736032 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:50.655893694 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:52.653823970 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:54.654502738 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:56.752393329 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:12:58.752406405 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:13:00.951535466 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:13:02.956795371 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:13:04.953959917 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:13:06.951762293 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:13:09.156519995 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:13:11.305850480 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:13:13.353048342 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:13:15.351603383 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:13:17.352866359 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:13:19.550848561 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:13:21.552238896 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:13:23.553952750 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:13:25.750354981 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:13:27.752629501 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:13:29.955134824 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:13:32.002756645 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:13:34.151985619 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:13:36.352492372 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:13:38.552004633 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:13:40.654139931 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:13:42.656144973 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:13:44.752106865 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:13:46.751726828 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:13:48.959570446 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:13:50.952217872 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:13:52.953519361 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:13:54.951861070 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:13:57.152423478 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:13:59.150805604 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:01.306222320 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:03.351767503 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:05.552239261 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:07.551627620 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:09.553118004 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:11.750190254 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:13.751593795 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:15.754712152 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:17.751163404 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:19.951950104 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:21.952810093 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:23.950921870 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:26.003252431 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:28.002654717 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:30.002861958 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:32.153453506 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:34.350544992 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:36.352256622 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:38.350739838 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:40.553443686 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:42.655045439 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:44.653646678 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:46.751507685 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:48.954753902 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:51.151154609 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:53.303939565 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:55.305464124 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:57.305247176 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:14:59.351791722 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:01.559049837 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:03.750576023 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:05.752691254 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:07.954027608 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:10.002397657 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:12.002860999 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:14.152580516 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:16.153128878 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:18.352142472 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:20.350486837 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:22.351269360 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:24.352006988 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:26.550451992 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:28.553600857 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:30.654732466 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:32.753601398 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:34.952951765 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:36.953384600 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:39.150951262 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:41.305516146 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:43.351776084 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:45.551411148 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:47.755544845 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:49.950160934 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:51.951821238 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:54.003208553 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:56.153151179 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:15:58.351247045 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:00.560357746 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:02.653806881 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:04.751725615 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:06.952173537 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:08.952573639 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:11.151576282 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:13.151730052 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:15.304434775 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:17.304653157 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:19.305124584 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:21.352340301 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:23.550931360 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:25.551148147 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:27.751370957 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:29.750983727 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:31.949851635 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:33.953976005 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:36.002307291 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:38.002981298 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:40.157138645 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:42.151476802 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:44.352193169 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:46.552226190 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:48.653953349 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:50.750778967 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:52.752994165 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:54.751545319 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:56.951920395 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:16:58.951276915 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:00.952369461 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:03.149683037 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:05.303908892 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:07.305311903 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:09.350478023 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:11.550636210 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:13.552164807 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:15.749570545 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:17.951710160 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:20.005995888 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:22.001772272 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:24.151251165 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:26.154764777 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:28.153061293 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:30.349953214 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:32.351064606 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:34.357678029 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:36.564548094 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:38.551506367 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:40.559325308 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:42.553227956 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:44.654993508 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:46.757908632 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:48.752181226 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:50.752543037 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:52.960262370 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:55.158631220 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:57.305068632 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:17:59.309072375 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:01.305733443 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:03.305561670 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:05.353460602 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:07.353891022 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:09.553966103 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:11.552382945 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:13.752969808 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:15.751280059 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:17.751578471 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:19.960650180 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:22.003193425 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:24.003424240 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:26.160007991 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:28.154389530 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:30.152652441 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:32.355644681 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:34.351512105 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:36.351516524 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:38.353081289 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:40.550679480 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:42.654526578 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:44.655947242 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:46.754517752 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:48.951960390 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:50.953571041 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:52.953036194 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:54.952166768 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:57.150719294 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:18:59.153424344 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:01.305147852 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:03.305246328 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:05.305767197 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:07.304753020 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:09.352025613 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:11.551452804 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:13.552359420 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:15.553978907 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:17.750102052 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:19.753868659 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:21.751236095 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:23.751300496 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:25.952655526 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:28.002806607 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:30.003103575 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:32.154160809 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:34.351220378 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:36.551563943 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:38.663872620 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:40.654330849 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:42.751924130 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:44.955033619 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:47.151014877 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:49.152642110 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:51.305174878 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:19:53.305880787 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:19:55.352474404 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:19:57.555656400 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:19:59.750141443 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:01.752064673 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:03.752292041 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:05.953818022 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:07.950996703 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:09.951185418 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:11.960886963 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:14.003444265 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:16.003649281 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:18.153502789 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:20.352490844 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:22.551306587 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:24.556227567 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:26.655445034 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:28.654671751 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:30.752371403 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:32.954383117 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:34.952167098 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:37.152805609 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:39.305126400 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:41.305297793 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:43.352662049 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:45.353687840 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:47.552228364 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:49.553997523 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:51.753935607 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:53.952774552 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:55.951329223 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:20:58.007572686 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:21:00.003413451 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:21:02.152043830 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:04.156533899 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:06.152370936 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:08.352645703 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:10.551334557 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:12.653687884 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:14.654951833 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:16.654148263 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:18.752975997 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:20.953676665 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:22.951922514 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:25.153612714 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:27.304963982 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:29.305129244 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:31.315761479 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:33.351847185 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:35.551740523 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:37.755183240 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:39.751469984 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:41.952413499 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:43.952738070 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:46.002446426 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:48.003543821 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:50.003544643 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:52.153486999 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:54.350947140 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:56.550441205 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:21:58.551517020 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:00.551049450 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:02.654528885 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:04.752322814 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:06.754046698 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:08.951860754 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:11.152176548 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:13.151353090 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:15.304481481 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:17.305719570 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:19.305269713 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:21.351730708 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:23.555812077 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:25.552478945 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:27.751065814 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:29.954107238 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:31.950178627 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:33.950813161 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:36.002922195 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:38.152564125 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:40.350027211 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:42.351107195 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:44.550444878 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:46.551252439 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:48.654322915 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:50.754878470 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:52.753907044 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:54.951694762 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:56.955263758 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:22:59.151981812 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:01.304430925 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:03.311020083 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:05.352698040 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:07.352138789 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:09.558357319 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:11.751995188 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:13.950402652 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:15.952792419 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:18.002969377 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:20.151570030 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:22.153089319 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:24.152220164 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:26.352661936 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:28.551933346 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:30.654395118 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:32.655400210 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:34.653998545 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:36.655622831 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:38.752398906 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:40.952171989 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:42.955580793 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:44.953048550 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:46.952761741 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:49.151317293 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:51.151107508 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:53.151788540 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:55.305162593 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:57.352162704 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:23:59.551667401 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:01.751299468 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:03.952400268 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:05.950920595 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:08.003186403 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:10.152143025 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:12.152648376 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:14.349859988 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:16.352762600 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:18.550902208 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:20.550118032 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:22.558191734 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:24.551333992 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:26.653532207 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:28.656340281 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:30.655354606 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:32.654375886 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:34.654804994 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:36.655534967 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:38.654814421 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:40.752296794 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:42.953772209 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:44.950781603 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:46.951468685 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:49.152558955 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:51.305046160 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:53.352279610 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:55.356132340 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:57.552551831 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:24:59.752578681 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:01.955545441 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:03.952823540 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:06.002666971 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:08.003355927 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:10.151292240 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:12.152828751 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:14.351037190 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:16.552164099 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:18.551320754 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:20.654315769 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:22.753013188 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:24.953322780 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:27.150786097 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:29.153756617 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:31.305014199 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:33.352572850 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:35.352872265 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:37.552430233 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:39.750811567 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:41.759942398 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:43.751063032 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:45.952851578 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:47.953173764 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:49.952624151 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:52.002864058 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:54.151114962 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:56.151795642 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:25:58.351013240 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:00.552357159 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:02.654741906 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:04.654383341 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:06.751674515 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:08.954167425 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:11.150681226 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:13.304783429 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:15.306522982 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:17.352160049 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:19.352212629 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:21.554745583 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:23.750967926 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:25.950480719 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:27.956405326 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:30.003018319 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:32.002867156 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:34.003638989 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:36.003467697 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:38.151719554 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:40.351152216 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:42.552780408 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:44.551084829 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:46.653844081 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:48.751917636 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:50.953174991 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:52.951926953 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:55.152892539 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:57.304952509 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:26:59.305617752 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:01.352759008 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:03.553977349 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:05.750371565 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:07.755292395 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:09.751065282 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:11.951738778 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:13.959972019 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:15.951543231 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:18.003410518 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:20.154448825 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:22.350454219 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:24.552181028 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:26.657917551 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:28.753504578 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:30.950999806 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:32.953049872 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:35.151246388 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:37.304204087 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:39.305058575 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:41.353550273 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:43.551991510 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:45.750205318 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:47.751301961 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:49.752170096 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:51.949959356 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:54.005260897 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:56.003528047 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:27:58.152669136 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:00.155599670 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:02.352131054 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:04.550331699 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:06.658173825 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:08.751987555 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:10.952218609 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:13.161335864 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:15.304868911 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:17.307402468 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:19.352553971 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:21.352012493 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:23.551573747 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:25.552030677 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:27.750294219 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:29.751263604 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:31.950599794 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:33.952032259 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:35.952517533 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:37.951126176 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:40.012906575 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:42.003208830 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:44.002613611 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:46.161072552 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:48.351194255 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:50.550381416 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:52.552088920 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:54.653797164 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:56.751960318 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:28:58.954105294 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:00.952420083 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:03.151579932 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:05.304642931 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:07.305322730 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:09.351374137 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:11.551764802 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:13.752469126 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:15.750998009 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:17.951453557 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:19.951647422 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:22.002455927 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:24.151821819 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:26.154145673 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:28.350755655 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:30.553040232 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:32.552065679 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:34.653521227 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:36.654241753 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:38.662000262 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:40.751716043 [INFO ] [mtrc   ] mem: rss=13.2 MiB
+2026-01-07 19:29:42.132616920 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:53710 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:5922, last_ms_ago:4199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:29:42.132653960 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:53702 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:5922, last_ms_ago:4199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:29:42.132669710 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:53734 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:5922, last_ms_ago:4199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:29:42.132692743 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:53714 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:5922, last_ms_ago:4199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:29:42.132718892 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:53730 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:5922, last_ms_ago:4199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:34:36.221635932 [INFO ] [ctrl   ] wpgen out sink resolved: kind=tcp, params={"addr": String("127.0.0.1"), "framing": String("line"), "port": Number(19002)}
+2026-01-07 19:34:36.221688852 [INFO ] [ctrl   ] wpgen.sample: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000), gen_speed=50, stat_sec=2, env: WF_GEN_BATCH=(unset), WF_GEN_UNIT_SIZE=(unset)
+2026-01-07 19:34:36.221697959 [INFO ] [ctrl   ] run_sample_direct: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000)
+2026-01-07 19:34:36.221703189 [INFO ] [ctrl   ] find conf files in: ./models/wpl
+2026-01-07 19:34:36.221760396 [INFO ] [ctrl   ] run_sample_direct: found 1 files
+2026-01-07 19:34:36.221774333 [INFO ] [ctrl   ] run_sample_direct: loaded 1 sample lines
+2026-01-07 19:34:36.221810400 [INFO ] [ctrl   ] monitor proc start: stat_sec=2, stat_print=true
+2026-01-07 19:34:36.221857469 [INFO ] [ctrl   ] speed: unlimited (no wait)
+2026-01-07 19:34:36.221868460 [INFO ] [ctrl   ] monitor loop started (stat_sec=2, stat_print=true)
+2026-01-07 19:34:36.221946867 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:34:36.221960353 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:34:36.221965653 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 0 (shared_total=Some(10000000000000000))
+2026-01-07 19:34:36.222002301 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:34:36.222033310 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:34:36.222064358 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:34:36.222075499 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:34:36.222080268 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 1 (shared_total=Some(10000000000000000))
+2026-01-07 19:34:36.222090437 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:34:36.222097471 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:34:36.222165899 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:34:36.222176469 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:34:36.222181128 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 2 (shared_total=Some(10000000000000000))
+2026-01-07 19:34:36.222230040 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:34:36.222238045 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:34:36.222280385 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:34:36.222294110 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:34:36.222299481 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 3 (shared_total=Some(10000000000000000))
+2026-01-07 19:34:36.222331371 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:34:36.222340047 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:34:36.222390913 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:34:36.222400350 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:34:36.222404889 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 4 (shared_total=Some(10000000000000000))
+2026-01-07 19:34:36.222436388 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:34:36.222443592 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:34:36.222469931 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:34:36.222478648 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:34:36.222483046 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 5 (shared_total=Some(10000000000000000))
+2026-01-07 19:34:36.222509676 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:34:36.222516329 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:34:36.222550874 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:34:36.222558668 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:34:36.222561834 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 6 (shared_total=Some(10000000000000000))
+2026-01-07 19:34:36.222588284 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:34:36.222596409 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:34:36.222634571 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:34:36.222642336 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:34:36.222645482 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 7 (shared_total=Some(10000000000000000))
+2026-01-07 19:34:36.222670659 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:34:36.222678073 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:34:36.222720373 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:34:36.222728217 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:34:36.222731303 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 8 (shared_total=Some(10000000000000000))
+2026-01-07 19:34:36.222760278 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:34:36.222769715 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:34:36.222802136 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:34:36.222811744 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:34:36.222815752 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 9 (shared_total=Some(10000000000000000))
+2026-01-07 19:34:36.222860005 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:34:36.222871757 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:34:38.240590298 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:34:40.242481088 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:34:42.248781515 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:34:44.292689370 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:34:46.292996219 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:34:48.445338073 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:34:50.642351766 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:34:52.840814595 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:34:54.947495067 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:34:56.943086636 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:34:58.944134529 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:35:00.944267735 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:35:02.944817682 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:35:05.041866853 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:35:07.242796124 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:35:09.243084809 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:35:11.442135046 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:35:13.440521201 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:35:15.599152147 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:35:17.641885371 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:35:19.843579711 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:35:22.047330690 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:35:24.043183720 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:26.240262244 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:28.242504786 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:30.292919645 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:32.292853893 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:34.443737062 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:36.441601667 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:38.443073989 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:40.640865764 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:42.642721377 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:44.641663188 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:46.841371531 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:48.945257024 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:51.043429920 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:53.241460847 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:55.243690234 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:57.241895220 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:35:59.442029154 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:36:01.596369438 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:36:03.642118817 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:05.641776445 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:07.847029611 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:09.841742366 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:12.043550690 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:14.043369123 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:16.241635163 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:18.241939368 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:20.292215035 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:22.292567400 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:24.292713538 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:26.442217912 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:28.642516085 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:30.840359710 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:32.840870363 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:34.843168188 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:36.944797386 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:38.944070010 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:41.042928195 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:43.041252655 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:45.043132216 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:47.252150005 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:49.242878384 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:51.440966490 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:53.596753135 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:55.640862229 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:57.642678129 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:36:59.841665877 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:37:01.843110488 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:37:04.040995541 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:37:06.042345285 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:37:08.042532821 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:37:10.041862533 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:37:12.043407332 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:37:14.242357269 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:37:16.292968196 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:37:17.422620443 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:55536 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1692, last_ms_ago:1199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:37:17.422671810 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:55534 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1692, last_ms_ago:1199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:37:17.422694573 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:55544 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1692, last_ms_ago:1199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:38:33.217189273 [INFO ] [ctrl   ] wpgen out sink resolved: kind=tcp, params={"addr": String("127.0.0.1"), "framing": String("line"), "port": Number(19002)}
+2026-01-07 19:38:33.217226272 [INFO ] [ctrl   ] wpgen.sample: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000), gen_speed=50, stat_sec=2, env: WF_GEN_BATCH=(unset), WF_GEN_UNIT_SIZE=(unset)
+2026-01-07 19:38:33.217233466 [INFO ] [ctrl   ] run_sample_direct: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000)
+2026-01-07 19:38:33.217238565 [INFO ] [ctrl   ] find conf files in: ./models/wpl
+2026-01-07 19:38:33.217296735 [INFO ] [ctrl   ] run_sample_direct: found 1 files
+2026-01-07 19:38:33.217311402 [INFO ] [ctrl   ] run_sample_direct: loaded 1 sample lines
+2026-01-07 19:38:33.217349825 [INFO ] [ctrl   ] monitor proc start: stat_sec=2, stat_print=true
+2026-01-07 19:38:33.217385822 [INFO ] [ctrl   ] speed: unlimited (no wait)
+2026-01-07 19:38:33.217389740 [INFO ] [ctrl   ] monitor loop started (stat_sec=2, stat_print=true)
+2026-01-07 19:38:33.217503724 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:38:33.217519744 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:38:33.217525966 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 0 (shared_total=Some(10000000000000000))
+2026-01-07 19:38:33.217562324 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:38:33.217592461 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:38:33.217614222 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:38:33.217628309 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:38:33.217634490 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 1 (shared_total=Some(10000000000000000))
+2026-01-07 19:38:33.217658475 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:38:33.217667452 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:38:33.217715272 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:38:33.217728818 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:38:33.217741391 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 2 (shared_total=Some(10000000000000000))
+2026-01-07 19:38:33.217772129 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:38:33.217781126 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:38:33.217824478 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:38:33.217855546 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:38:33.217861057 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 3 (shared_total=Some(10000000000000000))
+2026-01-07 19:38:33.217883749 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:38:33.217909418 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:38:33.218020176 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:38:33.218032038 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:38:33.218037108 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 4 (shared_total=Some(10000000000000000))
+2026-01-07 19:38:33.218110155 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:38:33.218117990 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:38:33.218151794 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:38:33.218159879 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:38:33.218164137 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 5 (shared_total=Some(10000000000000000))
+2026-01-07 19:38:33.218223098 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:38:33.218230011 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:38:33.218267672 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:38:33.218275536 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:38:33.218279855 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 6 (shared_total=Some(10000000000000000))
+2026-01-07 19:38:33.218290354 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:38:33.218294642 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:38:33.218395793 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:38:33.218408016 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:38:33.218412694 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 7 (shared_total=Some(10000000000000000))
+2026-01-07 19:38:33.218432321 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:38:33.218437431 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:38:33.218537169 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:38:33.218548580 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:38:33.218553399 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 8 (shared_total=Some(10000000000000000))
+2026-01-07 19:38:33.218573737 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:38:33.218579328 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:38:33.218685257 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:38:33.218696508 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:38:33.218701227 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 9 (shared_total=Some(10000000000000000))
+2026-01-07 19:38:33.218736514 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:38:33.218747254 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:38:35.236669707 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:38:37.288870093 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:38:39.294361067 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:38:41.439228688 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:38:43.438097051 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:38:45.639719666 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:38:47.637942174 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:38:49.837692487 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:38:51.838468969 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:38:53.837690047 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:38:55.939629348 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:38:58.038047295 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:00.239094106 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:02.238482197 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:04.438092066 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:06.591094082 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:08.637760608 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:10.837177683 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:12.838669001 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:15.037395717 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:17.237607548 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:19.239861080 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:21.288249486 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:23.289495433 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:25.439135503 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:27.637612971 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:29.837826515 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:31.949496255 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:34.037159015 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:36.237665401 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:38.438362216 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:40.591008332 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:42.638519227 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:44.838505243 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:47.037453888 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:49.036065498 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:51.037867252 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:53.236360230 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:55.236927659 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:57.288565310 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:39:59.437480065 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:40:01.439523342 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:40:03.637076822 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:40:05.637920642 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:40:07.639122116 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:40:09.836143133 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:40:11.837794183 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:40:13.837796220 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:40:15.940771790 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:40:17.944570000 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:40:19.940458157 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:40:21.941327866 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 19:40:23.218812028 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:38934 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1692, last_ms_ago:1200, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:40:23.218868364 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:38932 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1692, last_ms_ago:1200, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:40:23.218894423 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:38950 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1692, last_ms_ago:1200, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:40:23.218921444 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:38938 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:1692, last_ms_ago:1200, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:40:27.016822991 [INFO ] [ctrl   ] wpgen out sink resolved: kind=tcp, params={"addr": String("127.0.0.1"), "framing": String("line"), "port": Number(19002)}
+2026-01-07 19:40:27.016866543 [INFO ] [ctrl   ] wpgen.sample: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000), gen_speed=50, stat_sec=2, env: WF_GEN_BATCH=(unset), WF_GEN_UNIT_SIZE=(unset)
+2026-01-07 19:40:27.016873126 [INFO ] [ctrl   ] run_sample_direct: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000)
+2026-01-07 19:40:27.016877664 [INFO ] [ctrl   ] find conf files in: ./models/wpl
+2026-01-07 19:40:27.016930183 [INFO ] [ctrl   ] run_sample_direct: found 1 files
+2026-01-07 19:40:27.016944229 [INFO ] [ctrl   ] run_sample_direct: loaded 1 sample lines
+2026-01-07 19:40:27.016981530 [INFO ] [ctrl   ] monitor proc start: stat_sec=2, stat_print=true
+2026-01-07 19:40:27.017012778 [INFO ] [ctrl   ] speed: unlimited (no wait)
+2026-01-07 19:40:27.017018249 [INFO ] [ctrl   ] monitor loop started (stat_sec=2, stat_print=true)
+2026-01-07 19:40:27.017103629 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:40:27.017118297 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:40:27.017124438 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 0 (shared_total=Some(10000000000000000))
+2026-01-07 19:40:27.017166337 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:40:27.017195091 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:40:27.017224146 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:40:27.017249253 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:40:27.017254383 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 1 (shared_total=Some(10000000000000000))
+2026-01-07 19:40:27.017265804 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:40:27.017272076 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:40:27.017369469 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:40:27.017380580 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:40:27.017385329 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 2 (shared_total=Some(10000000000000000))
+2026-01-07 19:40:27.017415586 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:40:27.017424934 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:40:27.017469237 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:40:27.017479857 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:40:27.017484836 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 3 (shared_total=Some(10000000000000000))
+2026-01-07 19:40:27.017519923 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:40:27.017548617 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:40:27.017554488 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:40:27.017564927 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:40:27.017569756 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 4 (shared_total=Some(10000000000000000))
+2026-01-07 19:40:27.017610733 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:40:27.017619921 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:40:27.017647823 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:40:27.017658503 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:40:27.017663292 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 5 (shared_total=Some(10000000000000000))
+2026-01-07 19:40:27.017704730 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:40:27.017735899 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:40:27.017815018 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:40:27.017846607 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:40:27.017859091 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 6 (shared_total=Some(10000000000000000))
+2026-01-07 19:40:27.017893926 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:40:27.017901811 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:40:27.017954139 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:40:27.017965040 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:40:27.017969699 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 7 (shared_total=Some(10000000000000000))
+2026-01-07 19:40:27.017993714 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:40:27.018000797 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:40:27.018073183 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:40:27.018084234 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:40:27.018088973 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 8 (shared_total=Some(10000000000000000))
+2026-01-07 19:40:27.018117437 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:40:27.018125251 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:40:27.018176338 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:40:27.018186537 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:40:27.018191005 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 9 (shared_total=Some(10000000000000000))
+2026-01-07 19:40:27.018220661 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:40:27.018233004 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:40:29.036368478 [INFO ] [mtrc   ] mem: rss=12.2 MiB
+2026-01-07 19:40:31.092999722 [INFO ] [mtrc   ] mem: rss=12.2 MiB
+2026-01-07 19:40:33.237183305 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:40:35.236860961 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:40:37.238653075 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:40:39.238034193 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:40:41.438161415 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:40:43.437089943 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:40:45.637570998 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:40:47.636094503 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:40:49.636850328 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:40:51.741039883 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:40:53.837220259 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:40:56.036780303 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:40:58.040677799 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:00.236226486 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:02.237107006 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:04.398378640 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:06.391227237 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:08.438076134 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:10.640406150 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:12.836262986 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:14.836814657 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:17.039552541 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:19.036779547 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:21.088611331 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:23.237633960 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:25.436320320 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:27.436927244 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:29.635986267 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:41:31.637796385 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:41:33.740116142 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:41:35.740414015 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:41:37.846430307 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:41:39.837149908 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:41:41.837724202 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:41:44.039375302 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:41:46.237581060 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:41:48.236366488 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:41:50.244992370 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:41:52.238540193 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:41:54.236731354 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:41:56.390652469 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:41:58.437239404 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:00.437728266 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:02.637330780 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:04.637499069 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:06.837336307 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:08.837268472 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:11.036937992 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:13.036719023 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:15.088618354 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:17.092597624 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:19.238743369 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:21.238538837 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:23.443195932 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:25.435958618 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:27.436526941 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:29.637716911 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:31.741593658 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:33.838951801 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:36.039788558 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:38.237641760 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:40.390365433 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:42.393326197 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:44.438216722 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:46.439177202 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:48.637877849 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:50.836774524 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:53.037705077 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:55.036476088 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:57.088850063 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:42:59.088781576 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:01.237475827 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:03.438456814 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:05.637853601 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:07.739809674 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:09.838416725 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:11.839105143 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:14.036919554 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:16.237926921 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:18.238024117 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:20.238580516 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:22.401451409 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:24.390967476 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:26.437814963 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:28.639672339 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:30.637768269 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:32.837342730 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:35.036901400 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:37.088357607 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:39.088842681 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:41.238276504 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:43.238205593 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:45.238099787 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:47.239111643 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:49.436885286 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:51.437186005 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:53.436911901 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:55.642947560 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:57.740893797 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:43:59.836945009 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:01.841421916 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:04.036717716 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:06.235973039 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:08.239434404 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:10.238095057 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:12.391755422 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:14.439448138 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:16.637586808 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:18.836433890 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:21.036547367 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:23.038157579 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:25.087947752 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:27.088475499 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:29.090285367 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:31.237089891 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:33.237708497 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:35.241449639 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:37.436902876 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:39.636227517 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:41.640249998 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:43.739783342 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:45.837717829 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:48.040791555 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:50.238120452 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:52.236715151 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:54.391925902 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:56.444235435 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:44:58.637172078 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:00.836144930 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:03.036978369 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:05.088697712 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:07.238135541 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:09.436037296 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:11.436892288 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:13.635992428 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:15.637170918 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:17.637766361 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:19.636762155 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:21.740799303 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:23.741009221 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:25.740658013 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:27.841619214 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:29.837701875 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:32.036502501 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:34.245089440 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:36.236313110 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:38.238064087 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:40.390328955 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:42.390558179 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:44.391198556 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:46.436905125 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:48.440313531 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:50.637751573 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:52.835856088 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:54.837594572 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:56.837738014 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:45:59.036318044 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:01.039857045 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:03.036489713 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:05.088137681 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:07.245257845 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:09.438331795 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:11.636911974 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:13.638783728 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:15.636716822 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:17.739911997 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:19.837260379 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:21.838510213 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:24.036655856 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:26.238005747 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:28.390917301 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:30.390563348 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:32.391712353 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:34.438306723 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:36.636716221 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:38.637423355 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:40.641030705 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:42.836403161 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:45.037480350 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:47.089371295 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:49.237654653 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:51.438380530 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:53.644124961 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:55.738978861 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:57.741315980 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:46:59.840560140 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:01.837689612 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:04.037261889 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:06.036558288 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:08.237229252 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:10.236718375 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:12.390943341 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:14.437777062 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:16.638258290 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:18.837087489 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:20.838861169 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:23.035763592 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:25.037631300 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:27.044338803 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:29.095126314 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:31.088853275 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:33.241546730 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:35.238969112 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:37.237440360 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:39.441598866 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:41.637846968 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:43.638202008 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:45.636575793 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:47.739319407 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:49.740020078 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:51.837325571 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:53.838697374 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:55.837459629 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:47:57.837956607 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:00.037737907 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:02.037041048 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:04.037929322 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:06.042615503 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:08.237122110 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:10.238501318 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:12.391796756 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:14.439205879 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:16.439229737 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:18.637822392 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:20.639007845 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:22.637786591 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:24.837493833 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:26.836756719 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:28.836425868 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:31.036713180 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:33.037803834 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:35.088629265 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:37.237690476 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:48:38.218069135 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:38000 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:6768, last_ms_ago:4799, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:48:38.218108068 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:37970 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:6768, last_ms_ago:4799, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:48:38.218137123 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:37984 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:6768, last_ms_ago:4799, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:48:38.218165526 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:37972 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:6768, last_ms_ago:4799, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:48:38.218187508 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:37960 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:6768, last_ms_ago:4799, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:48:38.218214979 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:37968 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:6768, last_ms_ago:4799, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:49:23.030550944 [INFO ] [ctrl   ] wpgen out sink resolved: kind=tcp, params={"addr": String("127.0.0.1"), "framing": String("line"), "port": Number(19002)}
+2026-01-07 19:49:23.030575831 [INFO ] [ctrl   ] wpgen.sample: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000), gen_speed=50, stat_sec=2, env: WF_GEN_BATCH=(unset), WF_GEN_UNIT_SIZE=(unset)
+2026-01-07 19:49:23.030581531 [INFO ] [ctrl   ] run_sample_direct: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000)
+2026-01-07 19:49:23.030584898 [INFO ] [ctrl   ] find conf files in: ./models/wpl
+2026-01-07 19:49:23.030621877 [INFO ] [ctrl   ] run_sample_direct: found 1 files
+2026-01-07 19:49:23.030630694 [INFO ] [ctrl   ] run_sample_direct: loaded 1 sample lines
+2026-01-07 19:49:23.030664287 [INFO ] [ctrl   ] monitor proc start: stat_sec=2, stat_print=true
+2026-01-07 19:49:23.030694895 [INFO ] [ctrl   ] speed: unlimited (no wait)
+2026-01-07 19:49:23.030699894 [INFO ] [ctrl   ] monitor loop started (stat_sec=2, stat_print=true)
+2026-01-07 19:49:23.030780175 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:49:23.030792208 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:49:23.030798119 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 0 (shared_total=Some(10000000000000000))
+2026-01-07 19:49:23.030860256 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:49:23.030893859 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:49:23.030916882 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:49:23.030927442 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:49:23.030932983 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 1 (shared_total=Some(10000000000000000))
+2026-01-07 19:49:23.030944474 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:49:23.030950686 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:49:23.031024154 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:49:23.031034303 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:49:23.031038241 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 2 (shared_total=Some(10000000000000000))
+2026-01-07 19:49:23.031069049 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:49:23.031084558 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:49:23.031198522 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:49:23.031215164 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:49:23.031228409 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 3 (shared_total=Some(10000000000000000))
+2026-01-07 19:49:23.031332514 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:49:23.031382438 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:49:23.031397026 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:49:23.031401925 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 4 (shared_total=Some(10000000000000000))
+2026-01-07 19:49:23.031420680 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:49:23.031464563 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:49:23.031470654 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:49:23.031517092 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:49:23.031527161 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:49:23.031532040 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 5 (shared_total=Some(10000000000000000))
+2026-01-07 19:49:23.031570943 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:49:23.031581603 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:49:23.031603685 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:49:23.031613253 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:49:23.031617921 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 6 (shared_total=Some(10000000000000000))
+2026-01-07 19:49:23.031671232 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:49:23.031679487 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:49:23.031684036 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 7 (shared_total=Some(10000000000000000))
+2026-01-07 19:49:23.031746553 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:49:23.031756111 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:49:23.031760580 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 8 (shared_total=Some(10000000000000000))
+2026-01-07 19:49:23.031772142 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:49:23.031781890 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:49:23.031790867 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:49:23.031801427 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:49:23.031815273 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:49:23.031820282 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:49:23.031870356 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:49:23.031885695 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:49:23.031889703 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 9 (shared_total=Some(10000000000000000))
+2026-01-07 19:49:23.031924258 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:49:23.031932193 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:49:25.054440901 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:49:27.052710544 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:49:29.101375856 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:49:31.102734512 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:49:33.102426149 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:49:35.251286069 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:49:37.452019277 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:49:39.649816931 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:49:41.650243101 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:49:43.752999907 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:49:45.755116016 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:49:47.753697045 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:49:49.850731924 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:49:51.855088149 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 19:49:54.050597889 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:49:56.051163911 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:49:58.054880923 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:50:00.250858043 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:02.251022891 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:04.254221740 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:06.403685545 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:08.405056134 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:10.405364552 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:12.450844480 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:14.452752378 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:16.651132089 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:18.653319243 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:20.849547046 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:22.851475143 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:24.851412574 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:27.050943291 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:29.050261657 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:31.103646318 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:33.102775558 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:35.250920593 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:37.459650809 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:50:39.650366790 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:50:41.753076607 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:50:43.756756539 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:50:45.852538482 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:50:48.051796756 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:50:50.052435426 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:50:52.250492079 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:50:54.405147924 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:50:56.404684783 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:50:58.451595703 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:00.451388931 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:02.650690978 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:04.652249498 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:06.850568786 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:09.051155890 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:11.051509484 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:13.103438818 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:15.102244680 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:17.256346421 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:19.253228483 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:21.451226645 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:23.656580817 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:25.650240565 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:27.752840636 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:29.756240221 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:31.753438017 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:33.851284275 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:36.051226804 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:38.250718737 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:40.250571218 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:42.251615341 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:44.251624136 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:46.404346651 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:48.405400131 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:50.451622838 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:52.451505086 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:54.650662559 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:56.655866519 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:51:58.652474695 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:52:00.651164936 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:52:02.855272553 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:52:05.051040870 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:07.101137005 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:09.253749003 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:11.251369134 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:13.451321784 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:15.450232553 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:17.450705491 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:19.452712224 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:21.649735833 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:23.651290877 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:25.753614297 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:27.753874695 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:29.860887297 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:32.051381832 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:34.249754588 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:36.252467972 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:38.252068529 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:40.404078334 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:42.406876229 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:44.451449702 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:46.652474028 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:48.650996585 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:50.651321624 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:52.850177951 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:55.051914761 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:57.050650810 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:52:59.102439841 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:53:01.250492571 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:53:03.252302184 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:53:05.252267757 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:53:07.450655634 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:53:09.453845012 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:53:11.650007631 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:53:13.754300888 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:53:15.857387646 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:53:18.052303700 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:53:19.631772276 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:41732 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:8742, last_ms_ago:6199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:53:19.631893725 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:41696 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:8742, last_ms_ago:6199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:53:19.631932107 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:41720 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:8742, last_ms_ago:6199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:53:19.631955791 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:41738 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:8742, last_ms_ago:6199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:53:19.631982301 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:41710 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:8742, last_ms_ago:6199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:53:26.196956517 [INFO ] [ctrl   ] wpgen out sink resolved: kind=tcp, params={"addr": String("127.0.0.1"), "framing": String("line"), "port": Number(19002)}
+2026-01-07 19:53:26.196985481 [INFO ] [ctrl   ] wpgen.sample: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000), gen_speed=50, stat_sec=2, env: WF_GEN_BATCH=(unset), WF_GEN_UNIT_SIZE=(unset)
+2026-01-07 19:53:26.196991603 [INFO ] [ctrl   ] run_sample_direct: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000)
+2026-01-07 19:53:26.196995480 [INFO ] [ctrl   ] find conf files in: ./models/wpl
+2026-01-07 19:53:26.197042458 [INFO ] [ctrl   ] run_sample_direct: found 1 files
+2026-01-07 19:53:26.197054681 [INFO ] [ctrl   ] run_sample_direct: loaded 1 sample lines
+2026-01-07 19:53:26.197085750 [INFO ] [ctrl   ] monitor proc start: stat_sec=2, stat_print=true
+2026-01-07 19:53:26.197118381 [INFO ] [ctrl   ] speed: unlimited (no wait)
+2026-01-07 19:53:26.197121547 [INFO ] [ctrl   ] monitor loop started (stat_sec=2, stat_print=true)
+2026-01-07 19:53:26.197218680 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:53:26.197232025 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:53:26.197236744 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 0 (shared_total=Some(10000000000000000))
+2026-01-07 19:53:26.197268353 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:53:26.197299753 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:53:26.197315232 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:53:26.197324199 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:53:26.197328507 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 1 (shared_total=Some(10000000000000000))
+2026-01-07 19:53:26.197352882 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:53:26.197381005 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:53:26.197402366 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:53:26.197412765 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:53:26.197417404 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 2 (shared_total=Some(10000000000000000))
+2026-01-07 19:53:26.197449394 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:53:26.197459012 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:53:26.197510559 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:53:26.197519105 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:53:26.197522341 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 3 (shared_total=Some(10000000000000000))
+2026-01-07 19:53:26.197549222 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:53:26.197557608 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:53:26.197593395 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:53:26.197603153 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:53:26.197607892 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 4 (shared_total=Some(10000000000000000))
+2026-01-07 19:53:26.197635695 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:53:26.197645513 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:53:26.197681701 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:53:26.197692121 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:53:26.197696960 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 5 (shared_total=Some(10000000000000000))
+2026-01-07 19:53:26.197723590 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:53:26.197731866 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:53:26.197783132 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:53:26.197794493 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:53:26.197799573 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 6 (shared_total=Some(10000000000000000))
+2026-01-07 19:53:26.197829199 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:53:26.197855418 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:53:26.197910141 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:53:26.197920791 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:53:26.197925590 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 7 (shared_total=Some(10000000000000000))
+2026-01-07 19:53:26.197969443 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:53:26.197979431 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:53:26.198013375 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:53:26.198024206 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:53:26.198028985 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 8 (shared_total=Some(10000000000000000))
+2026-01-07 19:53:26.198048531 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:53:26.198056386 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:53:26.198102974 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:53:26.198113123 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:53:26.198118002 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 9 (shared_total=Some(10000000000000000))
+2026-01-07 19:53:26.198146846 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:53:26.198155843 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:53:28.216172371 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:53:30.268338710 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:53:32.268739484 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:53:34.419145883 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:53:36.417926217 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:53:38.617640969 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:53:40.615942923 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:53:42.626031643 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:53:44.618732439 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:53:46.816011238 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:53:48.924659368 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:53:50.921048272 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:53:53.018847140 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:53:55.020541956 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:53:57.017702381 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:53:59.218297320 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:01.417614496 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:03.418525207 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:05.570356034 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:07.570218043 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:09.617656737 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:11.818672006 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:13.817209522 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:15.821751004 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:17.818873390 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:20.023893645 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:22.217578311 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:24.268612360 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:26.417811207 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:28.624910933 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:30.616717896 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:32.817564047 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:34.928225002 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:37.019103429 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:39.216681241 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:54:41.422822285 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:54:43.418297578 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:54:45.571101476 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:54:47.619335657 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:54:49.817055466 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:54:51.817627120 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:54:54.015855525 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:54:56.016132344 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:54:58.016815947 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:00.215886378 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:02.217222159 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:04.217753125 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:06.268694840 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:08.269879959 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:10.419044491 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:12.419386864 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:14.626362387 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:16.616890012 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:18.618191909 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:20.618428522 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:22.617288035 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:24.816212179 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:26.816483950 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:28.919321276 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:55:30.921185111 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:55:33.018900622 [INFO ] [mtrc   ] mem: rss=12.9 MiB
+2026-01-07 19:55:34.198409784 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:45666 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:0, last_ms_ago:0, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:55:34.198472351 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:45658 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:0, last_ms_ago:0, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:55:34.198494874 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:45682 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:0, last_ms_ago:0, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:55:34.198525431 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:45674 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:0, last_ms_ago:0, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:55:34.198567180 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:45662 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:0, last_ms_ago:0, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:55:34.198752919 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:45678 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:0, last_ms_ago:0, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 19:55:37.150859719 [INFO ] [ctrl   ] wpgen out sink resolved: kind=tcp, params={"addr": String("127.0.0.1"), "framing": String("line"), "port": Number(19002)}
+2026-01-07 19:55:37.150890527 [INFO ] [ctrl   ] wpgen.sample: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000), gen_speed=50, stat_sec=2, env: WF_GEN_BATCH=(unset), WF_GEN_UNIT_SIZE=(unset)
+2026-01-07 19:55:37.150897991 [INFO ] [ctrl   ] run_sample_direct: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000)
+2026-01-07 19:55:37.150902920 [INFO ] [ctrl   ] find conf files in: ./models/wpl
+2026-01-07 19:55:37.150956181 [INFO ] [ctrl   ] run_sample_direct: found 1 files
+2026-01-07 19:55:37.150970858 [INFO ] [ctrl   ] run_sample_direct: loaded 1 sample lines
+2026-01-07 19:55:37.151009491 [INFO ] [ctrl   ] monitor proc start: stat_sec=2, stat_print=true
+2026-01-07 19:55:37.151042593 [INFO ] [ctrl   ] speed: unlimited (no wait)
+2026-01-07 19:55:37.151046320 [INFO ] [ctrl   ] monitor loop started (stat_sec=2, stat_print=true)
+2026-01-07 19:55:37.151143473 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:55:37.151158782 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:55:37.151164873 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 0 (shared_total=Some(10000000000000000))
+2026-01-07 19:55:37.151199408 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:55:37.151230266 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:55:37.151243702 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:55:37.151256335 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:55:37.151262737 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 1 (shared_total=Some(10000000000000000))
+2026-01-07 19:55:37.151301971 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:55:37.151345123 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:55:37.151539598 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:55:37.151553164 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:55:37.151559065 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 2 (shared_total=Some(10000000000000000))
+2026-01-07 19:55:37.151598249 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:55:37.151608819 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:55:37.151647081 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:55:37.151656659 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:55:37.151659995 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 3 (shared_total=Some(10000000000000000))
+2026-01-07 19:55:37.151688469 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:55:37.151715820 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:55:37.151735186 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:55:37.151743743 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:55:37.151748441 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 4 (shared_total=Some(10000000000000000))
+2026-01-07 19:55:37.151815117 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:55:37.151823863 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:55:37.151828612 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 5 (shared_total=Some(10000000000000000))
+2026-01-07 19:55:37.151904946 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:55:37.151915506 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:55:37.151920205 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 6 (shared_total=Some(10000000000000000))
+2026-01-07 19:55:37.151982432 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:55:37.151992601 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:55:37.151997250 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 7 (shared_total=Some(10000000000000000))
+2026-01-07 19:55:37.152052974 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:55:37.152062071 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:55:37.152075527 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:55:37.152081037 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:55:37.152089673 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:55:37.152094362 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:55:37.152099843 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:55:37.152104060 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:55:37.152131502 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:55:37.152140359 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:55:37.152144988 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 8 (shared_total=Some(10000000000000000))
+2026-01-07 19:55:37.152201103 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:55:37.152236480 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:55:37.152387644 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 19:55:37.152401290 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 19:55:37.152406580 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 9 (shared_total=Some(10000000000000000))
+2026-01-07 19:55:37.152469919 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 19:55:37.152480930 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 19:55:39.169982507 [INFO ] [mtrc   ] mem: rss=12.1 MiB
+2026-01-07 19:55:41.171973251 [INFO ] [mtrc   ] mem: rss=12.2 MiB
+2026-01-07 19:55:43.172527873 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:55:45.222379427 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:55:47.381200969 [INFO ] [mtrc   ] mem: rss=12.3 MiB
+2026-01-07 19:55:49.571168693 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:55:51.573193211 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:55:53.780598615 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:55:55.771935263 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:55:57.874668476 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:55:59.971687977 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:02.171775841 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:04.371918309 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:06.523544603 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:08.524068247 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:10.573085322 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:12.771446117 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:14.970242060 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:17.170590988 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:19.222568602 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:21.372332672 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:23.571620492 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:25.771223253 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:27.771394863 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:29.873366131 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:31.873735094 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 19:56:33.981387722 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:56:36.171034591 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:56:38.171711785 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:56:40.176145797 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:56:42.370772196 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:56:44.523585483 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:56:46.534269672 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:56:48.524481404 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:56:50.571156922 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:56:52.572435316 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:56:54.771343571 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:56:56.972535071 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:56:59.171376690 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:57:01.222938603 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:57:03.371445136 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:57:05.571536447 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:57:07.771720262 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:57:09.874874306 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 19:57:11.972131525 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:13.972201383 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:16.172447084 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:18.171078356 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:20.173204725 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:22.370623668 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:24.524520673 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:26.525883004 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:28.571548081 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:30.573214444 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:32.780657407 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:34.970206953 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:36.970355581 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:39.172145357 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:41.221776315 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:43.222317562 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:45.223103889 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:47.371828403 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:49.371742940 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:51.572775662 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:53.571918557 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:55.571767342 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:57.769770884 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:57:59.771027036 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:01.770562388 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:03.874148696 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:05.972968464 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:08.170767683 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:10.171195356 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:12.375258190 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:14.370094973 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:16.371742722 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:18.525403073 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:20.524873575 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:22.571675853 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:24.572899454 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:26.771200396 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:28.771549703 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:30.970125213 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:32.971158014 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:34.972342511 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:37.170392712 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:39.171709958 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:41.222595518 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:43.370715404 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:45.372626968 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:47.372868892 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:49.570853228 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:51.772965892 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:53.874591328 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:55.972999340 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:58:58.178130162 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:00.172890792 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:02.370069644 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:04.370543824 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:06.524819343 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:08.525035368 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:10.524583436 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:12.525431870 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:14.526238486 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:16.572529661 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:18.575715935 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:20.772994483 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:22.771243215 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:24.972779726 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:26.970620281 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:29.171096766 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:31.171531352 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:33.222139399 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 19:59:35.223229518 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:59:37.222264720 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:59:39.371886171 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:59:41.371395185 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:59:43.571780248 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:59:45.571523202 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:59:47.571534100 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:59:49.770159202 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:59:51.874519324 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:59:53.874134639 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:59:55.972425831 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 19:59:57.972349445 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:00.171299058 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:02.170952532 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:04.376145061 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:06.524346300 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:08.574414220 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:10.571952867 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:12.773356135 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:14.970279797 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:16.974163051 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:18.970710532 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:21.171727106 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:23.170417691 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:25.222073641 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:27.371390139 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:29.572853544 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:31.770766676 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:33.874640144 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:35.971852179 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:37.973596358 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:40.172671607 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:42.369884091 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:44.527305908 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:46.525597682 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:48.525315019 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:50.531253391 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:52.571757859 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:54.772886482 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:56.978326407 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:00:59.170648069 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:01.171129954 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:03.175382493 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:05.221695169 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:07.221483691 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:09.222264969 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:11.371450629 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:13.572668850 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:15.770507043 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:17.773255452 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:19.874862806 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:21.972374892 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:23.972190874 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:26.173070869 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:28.171506405 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:30.374517369 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:32.523812005 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:34.524294523 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:36.572805475 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:38.572459602 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:40.771634419 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:42.979357189 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:44.970288574 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:46.970547150 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:49.170723601 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:51.222371195 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:53.372076805 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:55.571246734 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:57.771981596 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:01:59.770582091 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:01.873617511 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:03.874923988 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:05.971466841 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:07.972820737 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:10.172498980 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:12.172410060 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:14.171272649 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:16.178077801 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:18.370173948 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:20.373171516 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:22.533783225 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:24.571291866 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:26.772602902 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:28.972498153 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:30.970189267 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:32.972285679 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:35.170505549 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:37.170753473 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:39.223216190 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:41.222824802 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:43.373477222 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:45.371373402 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:47.571771891 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:49.578496642 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:51.571589082 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:53.770740986 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:55.775075649 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:57.873395517 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:02:59.875247880 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:01.976273418 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:03.971285172 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:06.171693380 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:08.370441443 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:10.370558802 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:12.524448986 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:14.525420852 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:16.572883752 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:18.572348122 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:20.772699923 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:22.971407491 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:25.170739384 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:27.222433365 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:29.223797360 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:31.370944546 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:33.371931853 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:35.575841710 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:37.772212131 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:39.770175918 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:41.880866472 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:43.874300757 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:45.874680690 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:47.973807987 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:49.971458985 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:52.173451873 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:54.370347402 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:56.371794694 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:03:58.525003696 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:00.570957247 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:02.574137028 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:04.771215290 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:06.970168059 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:09.171114910 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:11.171029537 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:13.172760453 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:15.172386428 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:17.222159013 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:19.371589376 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:21.574947162 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:23.769967984 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:25.771309187 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:27.875963804 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:29.973278549 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:32.170928218 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:34.172148773 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:36.370116738 [INFO ] [mtrc   ] mem: rss=12.8 MiB
+2026-01-07 20:04:38.370647636 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:04:40.524993556 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:04:42.525403936 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:04:44.525064446 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:04:46.571198578 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:04:48.577091202 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:04:50.771946863 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:04:52.971424311 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:04:54.979763549 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:04:57.172201982 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:04:59.170647997 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:01.229941477 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:03.371248654 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:05.572639910 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:07.771623657 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:09.771925022 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:11.873401890 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:13.878141375 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:15.873448904 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:17.971309006 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:20.173259045 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:22.370677546 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:24.371877351 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:26.524301133 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:28.524766637 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:30.524891148 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:32.572333138 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:34.772675742 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:36.971651083 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:38.970671538 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:41.173663436 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:43.222535087 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:45.370826645 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:47.373961332 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:49.571238197 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:51.572816043 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:53.771626655 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:55.873574900 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:05:57.971500605 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:00.174082236 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:02.171304262 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:04.372281078 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:06.524188883 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:08.525188084 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:10.571522644 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:12.571142281 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:14.572020816 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:16.770642965 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:18.771255247 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:20.971717107 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:23.172634864 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:25.170265058 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:27.175120936 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:29.172181899 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:31.222805750 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:33.374777294 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:35.371657637 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:37.573085753 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:39.771362422 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:41.771762887 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:43.874400601 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:45.972216272 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:48.172367116 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:50.370525160 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:52.524411689 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:54.572393668 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:56.771345336 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:06:58.970571621 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:07:01.171423595 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:07:03.170508615 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:07:05.222014996 [INFO ] [mtrc   ] mem: rss=13.0 MiB
+2026-01-07 20:07:07.151876924 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:54820 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:7332, last_ms_ago:5198, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:07:07.151927199 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:54808 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:7332, last_ms_ago:5199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:07:07.151956774 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:54822 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:7332, last_ms_ago:5199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:07:07.151986340 [ERROR] [wp_engine::sinks::net::transport::writer::logging] tcp send error: err='Broken pipe (os error 32)' os_code=32 kind=BrokenPipe peer=127.0.0.1:19002 local=127.0.0.1:54798 payload=282B bp={on:true, mode:adaptive} cfg={high:60%, sleep:0ms, mode:adaptive} class=small (avg<=cap/16 (282<=164160)) avg_cur=282B avg_est=282B water={pending:282, sndbuf:2626560, pct:0} nodelay=unknown probe={bytes_since:7332, last_ms_ago:5199, stride_small:328320, stride_large:164160} limits={small_bypass:1024B, emerg_pct:30%, emerg_sleep:2ms}
+2026-01-07 20:07:25.270045869 [INFO ] [ctrl   ] wpgen out sink resolved: kind=tcp, params={"addr": String("127.0.0.1"), "framing": String("line"), "port": Number(19002)}
+2026-01-07 20:07:25.270076827 [INFO ] [ctrl   ] wpgen.sample: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000), gen_speed=50, stat_sec=2, env: WF_GEN_BATCH=(unset), WF_GEN_UNIT_SIZE=(unset)
+2026-01-07 20:07:25.270083049 [INFO ] [ctrl   ] run_sample_direct: rule_root='./models/wpl', find_name='sample.dat', parallel=10, total_line=Some(10000000000000000)
+2026-01-07 20:07:25.270087157 [INFO ] [ctrl   ] find conf files in: ./models/wpl
+2026-01-07 20:07:25.270156207 [INFO ] [ctrl   ] run_sample_direct: found 1 files
+2026-01-07 20:07:25.270169892 [INFO ] [ctrl   ] run_sample_direct: loaded 1 sample lines
+2026-01-07 20:07:25.270199127 [INFO ] [ctrl   ] monitor proc start: stat_sec=2, stat_print=true
+2026-01-07 20:07:25.270231969 [INFO ] [ctrl   ] speed: unlimited (no wait)
+2026-01-07 20:07:25.270236267 [INFO ] [ctrl   ] monitor loop started (stat_sec=2, stat_print=true)
+2026-01-07 20:07:25.270417558 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:07:25.270431144 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:07:25.270436464 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 0 (shared_total=Some(10000000000000000))
+2026-01-07 20:07:25.270507067 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:07:25.270537644 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:07:25.270765884 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:07:25.270776514 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:07:25.270780080 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 1 (shared_total=Some(10000000000000000))
+2026-01-07 20:07:25.270803214 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:07:25.270973855 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:07:25.270994223 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:07:25.270999854 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:07:25.271066429 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 2 (shared_total=Some(10000000000000000))
+2026-01-07 20:07:25.271155937 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:07:25.271164864 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:07:25.271170625 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:07:25.271182167 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:07:25.271186545 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 3 (shared_total=Some(10000000000000000))
+2026-01-07 20:07:25.271197977 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:07:25.271204228 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:07:25.271280452 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:07:25.271290711 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:07:25.271294919 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 4 (shared_total=Some(10000000000000000))
+2026-01-07 20:07:25.271326769 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:07:25.271337750 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:07:25.271393344 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:07:25.271404405 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:07:25.271408813 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 5 (shared_total=Some(10000000000000000))
+2026-01-07 20:07:25.271439832 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:07:25.271469578 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:07:25.271559958 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:07:25.271573122 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:07:25.271578172 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 6 (shared_total=Some(10000000000000000))
+2026-01-07 20:07:25.271606385 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:07:25.271615773 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:07:25.271690323 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:07:25.271702135 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:07:25.271707094 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 7 (shared_total=Some(10000000000000000))
+2026-01-07 20:07:25.271745697 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:07:25.271756578 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:07:25.271807974 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:07:25.271819556 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:07:25.271824626 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 8 (shared_total=Some(10000000000000000))
+2026-01-07 20:07:25.271893215 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:07:25.271906009 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:07:25.271943359 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink connected: target=127.0.0.1:19002
+2026-01-07 20:07:25.271956303 [INFO ] [orion_error::core::context] suc! build-sink-instance: 
+call context:
+	sink_name : gen_out
+	sink_kind : tcp
+
+2026-01-07 20:07:25.271959920 [INFO ] [ctrl   ] run_sample_direct: spawn pipeline 9 (shared_total=Some(10000000000000000))
+2026-01-07 20:07:25.272038338 [INFO ] [ctrl   ] gen_direct speed init 5  limit ns times:200000000,
+2026-01-07 20:07:25.272047365 [INFO ] [wp_engine::sinks::backends::tcp] tcp sink first-send: framing=Line msg_len=282 preview='{"date":1767771568.877448,"log":"180.57.30.148 - - [21/Jan/2025:'
+2026-01-07 20:07:27.289390157 [INFO ] [mtrc   ] mem: rss=12.2 MiB
+2026-01-07 20:07:29.342950592 [INFO ] [mtrc   ] mem: rss=12.2 MiB
+2026-01-07 20:07:31.490886643 [INFO ] [mtrc   ] mem: rss=12.2 MiB
+2026-01-07 20:07:33.691614012 [INFO ] [mtrc   ] mem: rss=12.2 MiB
+2026-01-07 20:07:35.890341529 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 20:07:37.889446937 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 20:07:39.995329635 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 20:07:41.993858098 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 20:07:44.090121407 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 20:07:46.094143827 [INFO ] [mtrc   ] mem: rss=12.4 MiB
+2026-01-07 20:07:48.293298397 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:07:50.291487943 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:07:52.495367803 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:07:54.492321332 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:07:56.644665658 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:07:58.695676597 [INFO ] [mtrc   ] mem: rss=12.5 MiB
+2026-01-07 20:08:00.691652217 [INFO ] [mtrc   ] mem: rss=12.6 MiB
+2026-01-07 20:08:02.892425893 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:05.093492449 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:07.092614058 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:09.090814284 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:11.291007218 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:13.289895138 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:15.342301301 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:17.342548066 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:19.492311095 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:21.690873732 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:23.892185530 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:25.996066593 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:27.993665648 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:29.993968871 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:32.093922244 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:34.092390413 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:36.290198900 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:38.294823463 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:40.290703804 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:42.491885087 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:44.644306079 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:46.644590466 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:48.644846951 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:50.645180322 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:52.693844145 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:54.891714117 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:57.089727048 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:08:59.091801863 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:01.289652791 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:03.289813074 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:05.348300249 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:07.342684265 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:09.342671322 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:11.491779350 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:13.691564977 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:15.690642925 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:17.893611320 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:19.994657630 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:21.993957124 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:23.994689866 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:26.090671235 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:28.290442886 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:30.492411891 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:32.644860574 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:34.692882439 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:36.891146263 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:39.091489328 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:41.291002822 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:43.342226221 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:45.492786169 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:47.690987476 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:49.889853553 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:51.993779991 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:54.090575042 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:56.090754322 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:09:58.291774602 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:00.492883779 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:02.644585747 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:04.653048030 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:06.691657587 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:08.892537433 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:10.893366976 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:13.092913543 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:15.290192534 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:17.343763700 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:19.342349932 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:21.491212839 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:23.492344931 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:25.692406207 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:27.889676872 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:29.891674192 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:31.994007893 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:33.993404710 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:35.993738459 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:38.004887829 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:40.092102624 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:42.290920119 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:44.296041057 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:46.489992346 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:48.491754884 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:50.500082404 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:52.490656662 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:54.492255312 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:56.648380171 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:10:58.692376632 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:00.691203416 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:02.691602589 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:04.890504734 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:06.890319947 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:09.090602819 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:11.092246713 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:13.289372465 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:15.289304519 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:17.295223187 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:19.342709816 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:21.342637322 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:23.493747746 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:25.691938273 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:27.889138354 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:29.994091045 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:31.994012369 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:33.993320520 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:35.993800156 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:38.090367709 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:40.092540918 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:42.290407283 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:44.292658942 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:46.491049416 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:48.644889136 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:50.645863000 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:52.645129965 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:54.692849791 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:56.895751541 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:11:58.892016936 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:01.089988851 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:03.098448881 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:05.090962167 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:07.290437009 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:09.291636289 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:11.342643931 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:13.342869798 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:15.490668022 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:17.492539435 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:19.690209442 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:21.692237159 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:23.890852745 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:25.993292156 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:27.994698274 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:29.994796631 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:32.090650781 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:34.090906675 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:36.299350101 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:38.492358978 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:40.644714647 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:42.699643106 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:44.890294247 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:46.892117499 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:49.092342814 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:51.091733941 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:53.289914538 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:55.342522582 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:57.490512626 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:12:59.492061092 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:01.689810139 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:03.889856816 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:05.993488490 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:07.993953146 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:10.090791188 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:12.290770410 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:14.291052062 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:16.493120184 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:18.644902974 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:20.645090178 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:22.692637399 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:24.892195667 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:26.890634402 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:29.094679443 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:31.090152557 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:33.090526232 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:35.093848955 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:37.289843549 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:39.342431023 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:41.342721141 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:43.492541277 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:45.490803169 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:47.692456651 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:49.889973359 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:51.993559117 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:53.994350679 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:56.092150731 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:13:58.090467096 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:00.090986296 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:02.293154887 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:04.290706092 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:06.292204663 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:08.493133850 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:10.492360386 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:12.643564217 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:14.645409049 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:16.690439135 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:18.691283074 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:20.692364240 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:22.889940820 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:24.891694432 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:27.090959068 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:29.289569544 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:31.289781344 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:33.341994045 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:35.344069652 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:37.492400067 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:39.490385548 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:41.500516412 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:43.492398290 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:45.690242212 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:47.693814786 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:49.690388742 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:51.691439902 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:53.692396214 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:55.889108358 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:57.891378703 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:14:59.995246914 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:02.092503012 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:04.090818345 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:06.292101759 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:08.494019787 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:10.645051474 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:12.645116959 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:14.696175568 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:16.890244499 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:19.090299332 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:21.092807333 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:23.289308721 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:25.289494763 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:27.293210506 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:29.342395289 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:31.342453269 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:33.342312166 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:35.490869297 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:37.689917897 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:39.690009562 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:41.692508686 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:43.690553700 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:45.691550888 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:47.890031870 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:49.889226286 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:51.993706426 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:54.098298737 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:56.092128841 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:15:58.290666440 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:00.491591331 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:02.643920559 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:04.643972199 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:06.645059217 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:08.693252384 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:10.691408967 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:12.891504908 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:14.890679418 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:17.092165524 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:19.289253544 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:21.291309985 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:23.289479814 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:25.289819033 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:27.344464600 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:29.342738423 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:31.342969970 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:33.492372241 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:35.692246315 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:37.889621206 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:40.003393319 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:41.994858383 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:43.993975925 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:46.090902724 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:48.090781939 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:50.289991862 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:52.290229612 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:54.292407101 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:56.290496387 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:16:58.491800591 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:00.491756469 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:02.645072705 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:04.691693594 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:06.892886599 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:08.890502777 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:10.890778407 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:13.098352117 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:15.291377666 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:17.342483012 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:19.345855840 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:21.490533522 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:23.491037783 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:25.691045478 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:27.890894143 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:29.994616900 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:31.993888732 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:33.994756756 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:36.090886807 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:38.290713361 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:40.492502747 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:42.490947613 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:44.644662089 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:46.646250769 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:48.691031607 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:50.692961181 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:52.693350516 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:54.890596755 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:56.890596819 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:17:59.094703706 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:01.290881285 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:03.342546054 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:05.342644582 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:07.490364037 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:09.490726902 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:11.690733866 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:13.691007482 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:15.889657192 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:17.994101035 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:20.091375427 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:22.090933829 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:24.291153762 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:26.492697597 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:28.644298937 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:30.644401912 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:32.645930339 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:34.691263824 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:36.890546655 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:39.098361609 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:41.289862298 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:43.291188345 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:45.347811783 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:47.342732659 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:49.342823752 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:51.490856606 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:53.690450381 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:55.690864542 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:57.889161006 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:18:59.993488178 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:01.994637893 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:04.090072354 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:06.093606706 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:08.090859319 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:10.291763330 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:12.493629822 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:14.644406037 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:16.645442519 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:18.649422437 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:20.691502391 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:22.692223140 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:24.900287924 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:26.891164861 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:29.090305243 [INFO ] [mtrc   ] mem: rss=12.7 MiB
+2026-01-07 20:19:31.091155996 [INFO ] [mtrc   ] mem: rss=12.7 MiB
