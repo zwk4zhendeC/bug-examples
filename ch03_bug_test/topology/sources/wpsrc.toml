@@ -3,8 +3,8 @@
 enable = true
 key = "kafka"
 connect = "kafka_src"
-tags = ["src:kafka","topic:wp.input.event"]
-params= { topic = "wp.input.event" ,brokers = "localhost:9092" }
+tags = ["src:kafka","topic:wp.k1"]
+params= { topic = "wp.k1" ,brokers = "localhost:9092" }
 
 # TCP输入源
 [[sources]]
